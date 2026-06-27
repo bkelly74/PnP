@@ -1,5 +1,18 @@
 # CHANGELOG — THE MATCH DAY CLUB (Project Atlas)
 
+## 2026-06-27 — Session 007 (M3 — Packaging system)
+Matte-black packaging system, built from the mark.
+### Added (`03_Packaging/`)
+- `MDC_Packaging_System.md` — system spec: roll-end tuck mailer (~250×190×80 mm), matte black +
+  blind-deboss/spot-UV shield, swing tag, seal, tissue, unboxing sequence, sustainability.
+- `Box/MDC_Mailer_Box_Dieline.svg` — labelled dieline (cut solid / fold dashed) with dims + legend.
+- `Box/MDC_Box_Lid_Artwork.svg` — lid print: shield + wordmark + finish callouts on matte black.
+- `Swing_Tag/MDC_Swing_Tag.svg` — 50×90 mm tag, front (shield) + back (info/QR).
+- `Seals_Tissue/MDC_Seal_Sticker.svg` — Ø60 mm seal; `…/MDC_Tissue_Repeat.svg` — tonal repeat.
+### Status
+- M3 specs + artwork complete; converter dieline + finished sample is the remaining factory step.
+- ROADMAP M3 complete; PROJECT_STATUS updated (Overall 38%). Next: M4 product system.
+
 ## 2026-06-27 — Session 006 (M2 — Supplier / Factory Pack)
 Started M2: production specs for applying the mark across manufacturing methods.
 ### Added (`04_Supplier/`)

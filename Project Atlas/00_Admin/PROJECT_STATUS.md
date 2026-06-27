@@ -1,13 +1,13 @@
 # PROJECT STATUS — THE MATCH DAY CLUB (Project Atlas)
 
-_Last updated: 2026-06-27 (Session 006 — Supplier Pack, M2)_
+_Last updated: 2026-06-27 (Session 007 — Packaging, M3)_
 
 ## Current Milestone
-**M2 — Supplier Pack** (M1 identity complete & accurate)
+**M3 — Packaging System** (M1 identity + M2 supplier pack complete)
 
 ## Estimated Completion
-**Overall project: 28%**
-**M1 (Identity Foundation): 90%** · **M2 (Supplier Pack): 95%** _(Factory PDF done; only the physical strike-off remains)_
+**Overall project: 38%**
+**M1: 90%** · **M2 (Supplier Pack): 95%** · **M3 (Packaging): 95%** _(specs + artwork done; converter sample remains)_
 
 ## Headline this session
 The live site became reachable and the prior identity was found to be **invented** — it bore no
@@ -42,10 +42,9 @@ live logo artwork** — geometry-accurate, not a hand reconstruction.
 - True Adobe-native exports (.ai/.eps) generated downstream from this vector geometry (DR-009).
 
 ## Next Tasks
-1. Confirm Pantone (green ≈ 368/376 C) + thread numbers on a physical strike-off; fill the
-   `Color/MDC_Color_Thread_Reference.md` sign-off table.
-2. Consolidate the Supplier Pack into a single Factory PDF.
-3. Packaging (M3): the matte-black box system already used on the live product photography.
+1. Factory steps (owner): Pantone/thread strike-off (M2); converter dieline + finished box sample (M3).
+2. **M4 — Product system:** range architecture and product-level shield application.
+3. **M5 — Website design system;** **M6 — marketing + consolidated Brand Standards Manual.**
 
 ## QA Status
 | Asset | Score | Verdict |

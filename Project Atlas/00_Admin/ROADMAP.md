@@ -14,9 +14,12 @@
 - ✅ Consolidated **Factory Pack PDF** (`04_Supplier/MDC_Factory_Pack.pdf`)
 - ⬜ Confirm Pantone/thread on a physical strike-off (factory step)
 
-## M3 — Packaging System
-- Matte black box system, sleeves, tissue, swing tags
-- Less ink, more confidence; no gradients, no clichés
+## M3 — Packaging System  _(complete)_
+- ✅ Matte-black mailer box (dieline + lid artwork)
+- ✅ Swing tag, seal sticker, tissue repeat
+- ✅ System spec: structure, finishes (deboss + spot-UV + foil), unboxing sequence, sustainability
+- ✅ Less ink, more confidence; no gradients, no clichés
+- ⬜ Converter production dieline + finished sample sign-off (factory step)
 
 ## M4 — Product System
 - Range architecture and product-level shield application

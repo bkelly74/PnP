@@ -1,4 +1,31 @@
-# CHANGELOG — MATCHDAY CLUB® (Project Atlas)
+# CHANGELOG — THE MATCH DAY CLUB (Project Atlas)
+
+## 2026-06-27 — Session 005 (Realignment to the live brand)
+The live site became reachable; the prior identity was found to be invented and was realigned
+to the real brand (matchdayclub.co.uk) per the owner's direction.
+### Captured
+- Live-brand source: logo raster, product photography, CSS palette, fonts, positioning copy.
+### Changed
+- `MDC_Shield_Master.svg` / `MDC_Product_Identity.svg` — redrawn as the double-keyline shield +
+  hollow "M" monogram + green down-chevron + green accent stroke (reconstruction from live raster).
+- `MDC_Performance_Mark.svg` — repurposed to the one-colour (single-ink) build of the mark.
+- `MDC_Shield_Construction.svg` — construction grid for the new mark.
+- `MDC_Wordmark.svg` / `MDC_Corporate_Logo.svg` — "THE MATCH DAY CLUB" in Anton + Archivo.
+- `08_Exports/Web/*` — reverse (dark-on-light) exports for the new mark + lockup.
+- `MDC_Color_System.md` — dark ground `#0A0B0D` + lime signal `#8BC63F` (real CSS values).
+- `MDC_Typography.md` — Anton (display) + Archivo (body).
+- `Brand_Standards.md` — rewritten to the real position (monthly box for 12–17s).
+- `Brand_Review_LiveSite.md` — completed with observed marks + the prior-vs-live gap.
+- `01_Brand/Usage/*` — clear-space / minimum-size / misuse rebuilt on the new mark.
+### Decisions
+- DR-013 (palette), DR-014 (type: Anton+Archivo), DR-015 (M-monogram mark), DR-016 (name + reconstruction).
+- DR-006 and DR-007 superseded.
+### Archived
+- `99_Archive/MDC_Shield_Master_chevron_v1.svg`, `MDC_Performance_Mark_chevron_v1.svg` (invented marks).
+### QA
+- Mark reconstruction verified side-by-side against the live logo; all SVGs well-formed; diagrams rendered (Chromium).
+### Open
+- Request the owner's master logo vector to replace the reconstruction 1:1 (DR-016).
 
 ## 2026-06-27 — Session 004 (Usage rules — clear space, minimum size, misuse)
 ### Added

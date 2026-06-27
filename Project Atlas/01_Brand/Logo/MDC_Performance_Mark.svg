@@ -1,9 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-label="Matchday Club Performance Mark">
-  <title>Matchday Club — Performance Mark (manufacturing)</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-label="The Match Day Club one-colour mark">
+  <title>The Match Day Club — One-Colour Mark (manufacturing)</title>
   <!--
-    Single ascending chevron. Constant perpendicular stroke (no thin tapers).
-    Top edge (350->545) and bottom edge (480->675) are parallel: production-safe
-    for embroidery, knit, silicone and woven labels.
+    Single-colour build of the shield mark for embroidery, knit, silicone, woven labels
+    and any one-ink reproduction. No green; all elements share one ink (here Ink #F5F7F8,
+    inverts to #0A0B0D on light grounds). Hollows are true transparency (masked).
   -->
-  <path d="M500 350 L700 545 L700 675 L500 480 L300 675 L300 545 Z" fill="#0E0E0E"/>
+  <defs>
+    <mask id="fHollow">
+      <rect width="1000" height="1000" fill="black"/>
+      <path d="M330 700 L330 285 L500 500 L670 285 L670 700" fill="none" stroke="white" stroke-width="78" stroke-linejoin="miter" stroke-miterlimit="9"/>
+      <path d="M330 700 L330 285 L500 500 L670 285 L670 700" fill="none" stroke="black" stroke-width="30" stroke-linejoin="miter" stroke-miterlimit="9"/>
+    </mask>
+  </defs>
+  <g fill="#F5F7F8">
+    <path fill-rule="evenodd" d="
+      M200 140 L800 140 L800 620 L500 885 L200 620 Z
+      M252 196 L748 196 L748 596 L500 812 L252 596 Z"/>
+    <path d="M448 286 L552 286 L500 392 Z"/>
+    <rect x="482" y="500" width="36" height="205"/>
+  </g>
+  <rect width="1000" height="1000" fill="#F5F7F8" mask="url(#fHollow)"/>
 </svg>

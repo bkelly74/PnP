@@ -1,6 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-label="Matchday Club shield reverse">
-  <title>Matchday Club — Master Shield (reverse / on dark)</title>
-  <rect width="1000" height="1000" fill="#0E0E0E"/>
-  <path d="M180 150 L820 150 L820 520 C820 700 700 800 500 880 C300 800 180 700 180 520 Z" fill="#ECE8E1"/>
-  <path d="M500 350 L700 545 L700 675 L500 480 L300 675 L300 545 Z" fill="#0E0E0E"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-label="The Match Day Club shield (dark on light)">
+  <title>The Match Day Club — Shield (dark-on-light export)</title>
+  <!-- Ink build for light grounds. Ink #0A0B0D + Green #8BC63F; hollows transparent (masked). -->
+  <defs>
+    <mask id="rHollow">
+      <rect width="1000" height="1000" fill="black"/>
+      <path d="M330 700 L330 285 L500 500 L670 285 L670 700" fill="none" stroke="white" stroke-width="78" stroke-linejoin="miter" stroke-miterlimit="9"/>
+      <path d="M330 700 L330 285 L500 500 L670 285 L670 700" fill="none" stroke="black" stroke-width="30" stroke-linejoin="miter" stroke-miterlimit="9"/>
+    </mask>
+  </defs>
+  <path fill-rule="evenodd" fill="#0A0B0D" d="
+    M200 140 L800 140 L800 620 L500 885 L200 620 Z
+    M252 196 L748 196 L748 596 L500 812 L252 596 Z"/>
+  <path fill="#8BC63F" d="M448 286 L552 286 L500 392 Z"/>
+  <rect width="1000" height="1000" fill="#0A0B0D" mask="url(#rHollow)"/>
+  <rect x="482" y="500" width="36" height="205" fill="#8BC63F"/>
 </svg>

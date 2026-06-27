@@ -1,78 +1,49 @@
-# BRAND REVIEW — `matchdayclub.co.uk` vs. CURRENT MARKS
+# BRAND REVIEW — `matchdayclub.co.uk` vs. PRIOR ATLAS MARKS
 
-_Session 003 · 2026-06-27 · Status: **AWAITING SOURCE** (live site unreachable from this environment)._
+_Session 005 · 2026-06-27 · Status: **COMPLETED** — site reachable; review done and acted on._
 
-## Purpose
-Compare the **live brand** presented at `matchdayclub.co.uk` against the **current house marks**
-established under Project Atlas (Shield, Performance Mark, wordmark, palette, type), and record
-where they align, diverge, or conflict.
+## Outcome
+The site became reachable this session (egress now returns HTTP 200; the Session 002–003 block
+is lifted). The live brand was fetched and observed directly. **The prior Atlas identity did not
+resemble the real brand** — it was invented while the site was unreachable. Per the owner's
+direction, Atlas has been **realigned to the live brand** in this same session.
 
-## Why this is not yet filled in
-The live site could not be fetched from this session:
+## What the live brand actually is
+- **Name:** *The Match Day Club* (stylised `THE` · `MATCH DAY` · `CLUB`).
+- **Product:** monthly subscription box for young footballers (12–17). Two tiers — Starter £15.99/mo,
+  Pro £24.99/mo (founder pricing). ~£40+ retail value, ~8 items. Pre-launch, founder waitlist.
+- **Tagline:** "Elevate your game. Every month."
+- **Founder:** Jack, 17, full back; academy trialist (West Ham, Southampton, Chelsea, Crystal Palace, Watford).
+- **Tone:** youth-athletic, built-by-players, transparent value, parent-reassuring, gamified (streaks/badges/levels).
 
-| Route | Result |
-|-------|--------|
-| `WebFetch https://matchdayclub.co.uk` | HTTP 403 (gateway) |
-| `curl` (browser UA), apex + `www` | `CONNECT tunnel failed, response 403` |
-| Agent-proxy status | `connect_rejected` logged for `matchdayclub.co.uk:443` and `www.…:443` |
-| `WebSearch` | Domain not indexed; no brand assets surfaced |
+## Observed marks (sources captured from the live site)
+| Element | Live value | Source |
+|---------|-----------|--------|
+| Logo | Double-keyline shield + hollow "M" monogram, green down-chevron + green accent stroke | `assets/logo-shield-small.png` (160×183) |
+| Wordmark | `THE` (green) · `MATCH DAY` · `CLUB`, on the box lockup | hero + `assets/box-photo.jpg` |
+| Display type | **Anton** | `fonts.googleapis.com/css2?family=Anton` |
+| Body type | **Archivo** (400–900) | `…&family=Archivo:wght@400;600;700;800;900` |
+| Ground | `#0A0B0D` | CSS `--bg` / `theme-color` |
+| Ink | `#F5F7F8` | CSS `--ink` |
+| Green (signal) | `#8BC63F` (bright `#A6E24A`, deep `#6AA62E`) | CSS `--green*` |
+| Surfaces | `#15181C` / `#1B1F25` / `#23282F` | CSS `--surface*` |
 
-The environment's egress policy denies the domain at the CONNECT layer (same blocker first logged
-in Session 002). This is an environment constraint, **not** a property of the site.
+## Comparison — prior Atlas vs. live (the gap)
+| Dimension | Prior Atlas (invented) | Live brand | Verdict |
+|-----------|------------------------|-----------|---------|
+| Brand name | "MATCHDAY CLUB" (one word) | "The Match Day Club" (three words) | **Conflict → fixed** |
+| Logo form | Solid shield + single up-chevron | Outlined shield + "M" monogram + green chevron/stem | **Conflict → fixed** |
+| Primary colour | Atlas Black `#0E0E0E` | Ground `#0A0B0D` | Close → aligned |
+| Accent | "Pitch" dark green `#14342B`, sparing | Bright lime `#8BC63F`, core signal | **Conflict → fixed** |
+| Display type | Archivo only | **Anton** + Archivo | **Conflict → fixed** |
+| Body type | Archivo | Archivo | Aligned |
+| Positioning | Premium kit "preparation" (Nike/Castore tier) | Monthly box for 12–17s, built-by-players | **Conflict → fixed** |
 
-### To unblock (either is sufficient)
-1. **Widen the network policy** to allow `matchdayclub.co.uk` (+ `www`) and re-run in a fresh session, **or**
-2. **Paste the source** here: homepage screenshot(s), logo file(s), and the live colour/type values
-   (the intake checklist below lists exactly what's needed).
+## Action taken (Session 005)
+- Mark redrawn to the live shield/monogram; palette, type, name and positioning corrected across
+  `01_Brand/**` and `08_Exports/**`. Invented chevron marks archived to `99_Archive/`.
+- Decisions DR-006/007/008-naming superseded; see `00_Admin/DECISION_REGISTER.md` (DR-013…016).
 
----
-
-## Current house marks (the baseline we review against)
-Authoritative sources in this repo:
-
-| Element | Spec | Source file |
-|---------|------|-------------|
-| Brand name / wordmark | `MATCHDAY` Expanded Bold + `CLUB` Expanded Regular, wide-tracked, outlined | `01_Brand/Logo/MDC_Wordmark.svg`, `MDC_Corporate_Logo.svg` |
-| Corporate identity | Shield + wordmark lockup | `01_Brand/Logo/MDC_Corporate_Logo.svg` |
-| Product identity | Shield only | `01_Brand/Logo/MDC_Product_Identity.svg` |
-| Performance Mark | Ascending chevron, constant perpendicular stroke (production-safe) | `01_Brand/Logo/MDC_Performance_Mark.svg` |
-| Shield geometry | 1000-unit grid, symmetric about x=500, point at (500,880) | `01_Brand/Logo/MDC_Shield_Master.svg` |
-| Atlas Black | `#0E0E0E` — primary | `01_Brand/Color/MDC_Color_System.md` |
-| Bone | `#ECE8E1` — reverse/ground | `01_Brand/Color/MDC_Color_System.md` |
-| Graphite | `#2A2A2A` — secondary surfaces | `01_Brand/Color/MDC_Color_System.md` |
-| Pitch (accent) | `#14342B` — heritage accent, <10% of any composition | `01_Brand/Color/MDC_Color_System.md` |
-| Typeface | Archivo superfamily (SIL OFL) | `01_Brand/Typography/MDC_Typography.md` |
-| Positioning | "Sells preparation, not accessories" — premium performance | `01_Brand/Brand_Standards.md` §1 |
-
----
-
-## Comparison scaffold _(fill the middle column from the live site, then judge)_
-
-| Dimension | Current house mark | Observed on `matchdayclub.co.uk` | Verdict |
-|-----------|--------------------|----------------------------------|---------|
-| Brand name + exact styling | `MATCHDAY CLUB` (two words, all caps, tracked) | _TBD_ | _align / drift / conflict_ |
-| Tagline / strapline | "preparation, not accessories" (internal positioning) | _TBD_ | _TBD_ |
-| Logo form | Shield + chevron | _TBD_ | _TBD_ |
-| Primary colour | Atlas Black `#0E0E0E` | _TBD (hex)_ | _TBD_ |
-| Ground / reverse | Bone `#ECE8E1` | _TBD (hex)_ | _TBD_ |
-| Accent | Pitch `#14342B`, sparing | _TBD (hex)_ | _TBD_ |
-| Headline typeface | Archivo Expanded | _TBD_ | _TBD_ |
-| Body typeface | Archivo | _TBD_ | _TBD_ |
-| Tone / positioning | Premium performance (Nike/Castore tier) | _TBD_ | _TBD_ |
-| Product range | _per Standards §1_ | _TBD_ | _TBD_ |
-
-### Findings _(to write once the middle column is populated)_
-- **Aligned:** …
-- **Drift (minor, tolerable):** …
-- **Conflict (needs a decision):** …
-- **Recommendation:** evolve toward / hold / migrate the live site to the house system.
-
----
-
-## Intake checklist — exactly what to paste to complete this review
-1. Homepage screenshot (full, desktop) + mobile if available.
-2. The logo as used live (SVG/PNG, or a clear crop).
-3. Exact colour values (hex from CSS/inspector, or named swatches).
-4. Fonts used for headline and body (name, or a screenshot of the type).
-5. The verbatim brand name styling, tagline, and nav/product labels.
-6. Anything time-sensitive (a current campaign, seasonal palette, etc.).
+## Open item
+- The repo mark is a **reconstruction from a 160px raster**. Request the owner's **master vector**
+  (AI/SVG/EPS) of the logo and the exact wordmark kerning to replace the reconstruction 1:1.

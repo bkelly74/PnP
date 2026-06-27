@@ -1,27 +1,30 @@
-# TYPOGRAPHY — MATCHDAY CLUB®
+# TYPOGRAPHY — THE MATCH DAY CLUB
 
-**Typeface locked (DR-011): Archivo superfamily — SIL Open Font License.**
-Zero licence cost, so no budget reservation applies. This resolves DR-008.
-
-## Why Archivo
-- A grotesque with genuine **Expanded** widths — confident, athletic, premium; reads alongside Nike / Castore / Gymshark / On / MAAP without looking generic.
-- One superfamily covers display, headings, body and UI — a tight, single-source system.
-- Variable axes `wght 100–900` and `wdth 62–125` give full control without extra files.
+Observed from the live site (matchdayclub.co.uk), 2026-06-27. The brand pairs **Anton**
+(display) with **Archivo** (body) — both Google Fonts / SIL Open Font License, zero licence cost.
+This corrects the earlier "Archivo-only" assumption (DR-011 amended by DR-014).
 
 ## Roles
-| Role | Cut | Weight / Width |
-|------|-----|----------------|
-| Wordmark / Display | Archivo Expanded | Bold (700) / wdth 125 |
-| Headings | Archivo | Semibold–Bold (600–700) / wdth 100 |
-| Body / UI | Archivo | Regular–Medium (400–500) / wdth 100 |
-| Captions / labels | Archivo | Medium (500), tracked +4% |
+| Role | Typeface | Notes |
+|------|----------|-------|
+| Display / Wordmark | **Anton** | Single weight, condensed, heavy caps. Used for "MATCH DAY", headlines, section titles. |
+| Body / UI | **Archivo** | Weights 400/600/700/800/900 in use on site. Paragraphs, labels, buttons. |
+
+CSS as served:
+```
+--font-display: "Anton", -apple-system, BlinkMacSystemFont, sans-serif;
+--font: "Archivo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+```
+Loaded via: `fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;700;800;900`.
 
 ## Wordmark construction
-- `MATCHDAY` — Archivo Expanded Bold (700/125), tracking +0.04em.
-- `CLUB` — Archivo Expanded Regular (400/125), tracking +0.36em, centred beneath.
-- **Outlined to vector** in `MDC_Wordmark.svg` and `MDC_Corporate_Logo.svg` — no live text; production-safe.
-- Licence retained at `Archivo-OFL.txt`.
+- `THE` — Anton, small, **Green** `#8BC63F`, tracked.
+- `MATCH DAY` — Anton, large, Ink `#F5F7F8`.
+- `CLUB` — Archivo 800, small, wide-tracked, Ink, set beneath.
+- Built in `MDC_Wordmark.svg` and `MDC_Corporate_Logo.svg` as editable Anton/Archivo text.
+  **Production must outline to vector** before handoff (no live-text dependency on press).
 
 ## Rules
-- Never substitute the wordmark cut. Never re-stretch (use the real `wdth` axis).
-- Body copy stays at width 100; reserve Expanded for the mark and major display only.
+- Anton for display only — never body (it is caps-only and tires at small sizes).
+- Archivo carries everything else; keep generous tracking on small all-caps labels.
+- Licence retained at `Archivo-OFL.txt`; Anton is likewise SIL OFL.

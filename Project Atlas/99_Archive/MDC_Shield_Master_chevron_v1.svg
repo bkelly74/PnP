@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-label="Matchday Club shield">
+  <title>Matchday Club — Master Shield</title>
+  <!-- Built on a 1000-unit construction grid. Perfect bilateral symmetry about x=500. -->
+  <g fill="#0E0E0E">
+    <!-- Shield body -->
+    <path d="M180 150 L820 150 L820 520 C820 700 700 800 500 880 C300 800 180 700 180 520 Z"/>
+  </g>
+  <!-- Performance Mark (chevron) reversed out of the shield -->
+  <path d="M500 350 L700 545 L700 675 L500 480 L300 675 L300 545 Z" fill="#ECE8E1"/>
+</svg>

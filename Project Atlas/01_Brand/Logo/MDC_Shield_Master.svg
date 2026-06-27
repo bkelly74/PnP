@@ -1,10 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-label="Matchday Club shield">
-  <title>Matchday Club — Master Shield</title>
-  <!-- Built on a 1000-unit construction grid. Perfect bilateral symmetry about x=500. -->
-  <g fill="#0E0E0E">
-    <!-- Shield body -->
-    <path d="M180 150 L820 150 L820 520 C820 700 700 800 500 880 C300 800 180 700 180 520 Z"/>
-  </g>
-  <!-- Performance Mark (chevron) reversed out of the shield -->
-  <path d="M500 350 L700 545 L700 675 L500 480 L300 675 L300 545 Z" fill="#ECE8E1"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-label="The Match Day Club shield">
+  <title>The Match Day Club — Master Shield (reconstruction from live mark)</title>
+  <!--
+    Reconstructed from the live brand mark at matchdayclub.co.uk (assets/logo-shield-small.png).
+    Double-keyline angular shield + hollow outlined "M" monogram, green down-chevron in the
+    top notch and a green vertical accent stroke. Built on the 1000-unit grid (DR-010),
+    symmetric about x=500. Ink #F5F7F8, Green #8BC63F; designed on the brand dark ground (#0A0B0D).
+    Hollows are true transparency (masked), so the mark is ground-independent.
+    NOTE: faithful reconstruction from a 160px raster — replace with the owner's master vector when supplied.
+  -->
+  <defs>
+    <!-- Hollow-out the M: thick white limb minus a thinner core = an outlined frame -->
+    <mask id="mHollow">
+      <rect width="1000" height="1000" fill="black"/>
+      <path d="M330 700 L330 285 L500 500 L670 285 L670 700" fill="none" stroke="white" stroke-width="78" stroke-linejoin="miter" stroke-miterlimit="9"/>
+      <path d="M330 700 L330 285 L500 500 L670 285 L670 700" fill="none" stroke="black" stroke-width="30" stroke-linejoin="miter" stroke-miterlimit="9"/>
+    </mask>
+  </defs>
+
+  <!-- Double-keyline shield frame (outer minus inner, evenodd) -->
+  <path fill-rule="evenodd" fill="#F5F7F8" d="
+    M200 140 L800 140 L800 620 L500 885 L200 620 Z
+    M252 196 L748 196 L748 596 L500 812 L252 596 Z"/>
+
+  <!-- Green down-chevron in the top-centre notch -->
+  <path fill="#8BC63F" d="M448 286 L552 286 L500 392 Z"/>
+
+  <!-- Hollow outlined M monogram (white frame, transparent interior) -->
+  <rect width="1000" height="1000" fill="#F5F7F8" mask="url(#mHollow)"/>
+
+  <!-- Green vertical accent stroke (centre stem) -->
+  <rect x="482" y="500" width="36" height="205" fill="#8BC63F"/>
 </svg>

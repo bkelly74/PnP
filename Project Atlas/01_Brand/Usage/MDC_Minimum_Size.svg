@@ -1,43 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 660" role="img" aria-label="Matchday Club minimum size">
-  <title>Matchday Club — Minimum Size</title>
-  <!--
-    Production floors for the Product Identity (shield only).
-    Shields shown to RELATIVE scale, bottoms on a common baseline; the labelled
-    values are the absolute minimums, not the on-screen render size.
-  -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 700" role="img" aria-label="The Match Day Club minimum size">
+  <title>The Match Day Club — Minimum Size</title>
+  <!-- Production floors for the shield mark, shown to relative scale on the brand ground. -->
   <defs>
-    <symbol id="shield" viewBox="150 120 700 790">
-      <path d="M180 150 L820 150 L820 520 C820 700 700 800 500 880 C300 800 180 700 180 520 Z" fill="#0E0E0E"/>
-      <path d="M500 350 L700 545 L700 675 L500 480 L300 675 L300 545 Z" fill="#ECE8E1"/>
-    </symbol>
     <marker id="arr2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
-      <path d="M0 0 L10 5 L0 10 z" fill="#2A2A2A"/>
+      <path d="M0 0 L10 5 L0 10 z" fill="#9AA1AA"/>
     </marker>
+    <mask id="mkm">
+      <rect width="1000" height="1000" fill="black"/>
+      <path d="M330 700 L330 285 L500 500 L670 285 L670 700" fill="none" stroke="white" stroke-width="78" stroke-linejoin="miter" stroke-miterlimit="9"/>
+      <path d="M330 700 L330 285 L500 500 L670 285 L670 700" fill="none" stroke="black" stroke-width="30" stroke-linejoin="miter" stroke-miterlimit="9"/>
+    </mask>
+    <g id="mark">
+      <path fill-rule="evenodd" fill="#F5F7F8" d="M200 140 L800 140 L800 620 L500 885 L200 620 Z M252 196 L748 196 L748 596 L500 812 L252 596 Z"/>
+      <path fill="#8BC63F" d="M448 286 L552 286 L500 392 Z"/>
+      <rect width="1000" height="1000" fill="#F5F7F8" mask="url(#mkm)"/>
+      <rect x="482" y="500" width="36" height="205" fill="#8BC63F"/>
+    </g>
   </defs>
 
-  <text x="60" y="70" font-family="Archivo, Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="3" fill="#0E0E0E">MINIMUM SIZE</text>
+  <rect width="1240" height="700" fill="#0A0B0D"/>
+  <text x="60" y="72" font-family="Archivo, Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="3" fill="#F5F7F8">MINIMUM SIZE</text>
+  <line x1="60" y1="500" x2="1180" y2="500" fill="none" stroke="#23282F" stroke-width="2"/>
 
-  <!-- common baseline -->
-  <line x1="60" y1="470" x2="1180" y2="470" stroke="#C9C4BA" stroke-width="2"/>
+  <!-- A: preferred (h 380) -->
+  <use href="#mark" transform="translate(120 120) scale(0.38)"/>
+  <text x="120" y="542" font-family="Archivo, Arial, sans-serif" font-size="26" font-weight="700" fill="#F5F7F8">PREFERRED</text>
+  <text x="120" y="576" font-family="Archivo, Arial, sans-serif" font-size="24" fill="#9AA1AA">Use with breathing room.</text>
 
-  <!-- A: preferred / reference  (h 360, w 319) -->
-  <use href="#shield" x="120" y="110" width="319" height="360"/>
-  <text x="120" y="512" font-family="Archivo, Arial, sans-serif" font-size="26" font-weight="700" fill="#0E0E0E">PREFERRED</text>
-  <text x="120" y="546" font-family="Archivo, Arial, sans-serif" font-size="24" fill="#2A2A2A">Use with breathing room —</text>
-  <text x="120" y="576" font-family="Archivo, Arial, sans-serif" font-size="24" fill="#2A2A2A">never at the floor by default.</text>
+  <!-- B: digital floor (h 230) -->
+  <use href="#mark" transform="translate(560 270) scale(0.23)"/>
+  <line x1="535" y1="270" x2="535" y2="500" stroke="#9AA1AA" stroke-width="2" marker-start="url(#arr2)" marker-end="url(#arr2)"/>
+  <text x="560" y="542" font-family="Archivo, Arial, sans-serif" font-size="26" font-weight="700" fill="#F5F7F8">DIGITAL FLOOR</text>
+  <text x="560" y="576" font-family="Archivo, Arial, sans-serif" font-size="24" fill="#9AA1AA">24px tall (shield).</text>
 
-  <!-- B: digital floor  (h 220, w 195) -->
-  <use href="#shield" x="560" y="250" width="195" height="220"/>
-  <line x1="535" y1="250" x2="535" y2="470" stroke="#2A2A2A" stroke-width="2" marker-start="url(#arr2)" marker-end="url(#arr2)"/>
-  <text x="560" y="512" font-family="Archivo, Arial, sans-serif" font-size="26" font-weight="700" fill="#0E0E0E">DIGITAL FLOOR</text>
-  <text x="560" y="546" font-family="Archivo, Arial, sans-serif" font-size="24" fill="#2A2A2A">24px tall (shield).</text>
+  <!-- C: embroidery floor (h 155) -->
+  <use href="#mark" transform="translate(850 345) scale(0.155)"/>
+  <line x1="828" y1="345" x2="828" y2="500" stroke="#9AA1AA" stroke-width="2" marker-start="url(#arr2)" marker-end="url(#arr2)"/>
+  <text x="850" y="542" font-family="Archivo, Arial, sans-serif" font-size="26" font-weight="700" fill="#F5F7F8">EMBROIDERY FLOOR</text>
+  <text x="850" y="576" font-family="Archivo, Arial, sans-serif" font-size="24" fill="#9AA1AA">25mm — use the one-colour mark.</text>
 
-  <!-- C: embroidery floor  (h 150, w 133) -->
-  <use href="#shield" x="850" y="320" width="133" height="150"/>
-  <line x1="828" y1="320" x2="828" y2="470" stroke="#2A2A2A" stroke-width="2" marker-start="url(#arr2)" marker-end="url(#arr2)"/>
-  <text x="850" y="512" font-family="Archivo, Arial, sans-serif" font-size="26" font-weight="700" fill="#0E0E0E">EMBROIDERY FLOOR</text>
-  <text x="850" y="546" font-family="Archivo, Arial, sans-serif" font-size="24" fill="#2A2A2A">25mm tall (shield).</text>
-  <text x="850" y="576" font-family="Archivo, Arial, sans-serif" font-size="24" fill="#2A2A2A">Re-check stitch density.</text>
-
-  <text x="60" y="630" font-family="Archivo, Arial, sans-serif" font-size="22" font-style="italic" fill="#2A2A2A">Shown to relative scale; labelled values are absolute production minimums, not the on-screen render size.</text>
+  <text x="60" y="650" font-family="Archivo, Arial, sans-serif" font-size="22" font-style="italic" fill="#7D848E">Shown to relative scale; labelled values are absolute production minimums, not the on-screen render size.</text>
 </svg>

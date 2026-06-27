@@ -1,4 +1,4 @@
-# ROADMAP — MATCHDAY CLUB® (Project Atlas)
+# ROADMAP — THE MATCH DAY CLUB (Project Atlas)
 
 ## M1 — Brand Identity Foundation  _(in progress)_
 - Master Shield, Performance Mark, Product + Corporate identities

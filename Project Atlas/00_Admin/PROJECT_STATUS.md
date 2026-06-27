@@ -1,6 +1,6 @@
 # PROJECT STATUS — MATCHDAY CLUB® (Project Atlas)
 
-_Last updated: 2026-06-27 (Session 002)_
+_Last updated: 2026-06-27 (Session 003)_
 
 ## Current Milestone
 **M1 — Brand Identity Foundation**
@@ -23,7 +23,7 @@ _Last updated: 2026-06-27 (Session 002)_
 - Brand Standards Manual (§1–5 drafted; misuse + clear-space diagrams next).
 
 ## Blocked Items
-- **Brand awareness (live site):** `matchdayclub.co.uk` is blocked by the environment's egress policy (gateway 403). Needs the network policy widened to allow the domain + a fresh session, or assets pasted in.
+- **Brand awareness (live site):** `matchdayclub.co.uk` is blocked by the environment's egress policy (gateway 403 on CONNECT, re-confirmed Session 003 via WebFetch, curl, and agent-proxy status; domain is not search-indexed either). Needs the network policy widened to allow the domain + a fresh session, or assets pasted in. Review scaffold staged at `01_Brand/Brand_Review_LiveSite.md` — becomes a fill-in-the-blanks exercise the moment source is provided.
 - True Adobe-native exports (.ai / .eps): not produced in this environment. SVG/PDF-ready vector geometry is the authoritative source; .ai/.eps to be generated from these paths in Illustrator. See DR-009.
 
 ## Next Tasks

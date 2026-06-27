@@ -1,5 +1,11 @@
 # CHANGELOG — MATCHDAY CLUB® (Project Atlas)
 
+## 2026-06-27 — Session 003 (Live-site brand review — blocked, scaffold staged)
+### Added
+- `01_Brand/Brand_Review_LiveSite.md` — comparison scaffold (house marks vs. live site), with the egress-block evidence and an intake checklist to complete the review.
+### Notes
+- `matchdayclub.co.uk` fetch attempted via WebFetch, curl (browser UA, apex + www), and WebSearch. All denied at the gateway (403 CONNECT) or not indexed. Block re-confirmed against the agent-proxy status endpoint. No live marks could be observed; review left as AWAITING SOURCE rather than fabricated.
+
 ## 2026-06-27 — Session 002 (Typeface lock + outlined wordmark)
 ### Added
 - `01_Brand/Logo/MDC_Wordmark.svg` — wordmark outlined to vector (Archivo).

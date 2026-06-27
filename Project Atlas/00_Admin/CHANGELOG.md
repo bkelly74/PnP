@@ -1,5 +1,20 @@
 # CHANGELOG — THE MATCH DAY CLUB (Project Atlas)
 
+## 2026-06-27 — Session 005e (Local Adobe tooling kit)
+This remote container has no Adobe apps and can't reach the user's PC. Added a kit so the user's
+own Illustrator/Photoshop (Windows 11) can produce true Adobe-native masters.
+### Added
+- `00_Admin/Tooling/LOCAL_SETUP.md` — Windows-first runbook: install Claude Code locally, drive
+  Illustrator via `File ▸ Scripts` (version-proof) or PowerShell COM (`DoJavaScript`), gotchas.
+- `00_Admin/Tooling/illustrator/build_master.jsx` — clean vector → `.ai/.eps/.pdf` + 4× PNG with
+  brand spot colours; **zero-config** (paths auto-resolve from the script location).
+- `00_Admin/Tooling/illustrator/image_trace.jsx` — Illustrator's native Image Trace on a higher-res source.
+- `00_Admin/Tooling/README.md` — "run-the-script vs full-install" comparison + recommendation.
+### Notes
+- For a one-shot export, running the `.jsx` in Illustrator gives the same files as the full local
+  install; the install only adds iterative agent help. Artwork sharpness is still bounded by the
+  source raster — a higher-res logo is the biggest upgrade.
+
 ## 2026-06-27 — Session 005d (Geometric master for large-format print)
 A zoom test showed that any trace of the 160px source wobbles at billboard scale (curve and
 polygon alike). So a **geometric, straight-edge master** was built for large-format print.

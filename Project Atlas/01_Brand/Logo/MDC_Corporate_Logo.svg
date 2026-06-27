@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1240" role="img" aria-label="Matchday Club corporate logo">
+  <title>Matchday Club — Corporate Logo (shield + wordmark)</title>
+  <!-- Corporate lockup per DR-002/003. Wordmark is DRAFT typography (DR-008):
+       set in a system-safe stack pending typeface lock; outline to vector once locked. -->
+  <g fill="#0E0E0E">
+    <path d="M180 150 L820 150 L820 520 C820 700 700 800 500 880 C300 800 180 700 180 520 Z"/>
+  </g>
+  <path d="M500 350 L700 545 L700 675 L500 480 L300 675 L300 545 Z" fill="#ECE8E1"/>
+  <text x="500" y="1050" text-anchor="middle"
+        font-family="'Helvetica Neue', Arial, sans-serif"
+        font-size="138" font-weight="700" letter-spacing="14" fill="#0E0E0E">MATCHDAY</text>
+  <text x="500" y="1180" text-anchor="middle"
+        font-family="'Helvetica Neue', Arial, sans-serif"
+        font-size="138" font-weight="300" letter-spacing="58" fill="#0E0E0E">CLUB</text>
+</svg>

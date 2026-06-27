@@ -1,0 +1,1 @@
+Every working session must leave the repository in a better state than it was found. Never finish a session without creating production assets, updating PROJECT_STATUS.md and CHANGELOG.md, and committing the work to the project structure.

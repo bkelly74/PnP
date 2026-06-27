@@ -15,3 +15,4 @@ Locked decisions. Do not revisit unless explicitly instructed.
 | 011 | Typeface locked: Archivo superfamily (SIL OFL) | Grotesque with true Expanded widths; premium/athletic; one superfamily for display→body; variable wght/wdth. Open Font License = zero licence cost, which clears the DR-008 budget reservation. Wordmark outlined to vector. |
 | 009 | SVG/PDF vector geometry is the source of truth | Adobe-native `.ai`/`.eps` cannot be authored in this environment. Clean hand-built vector paths are authoritative; `.ai`/`.eps` are generated from these in Illustrator without redrawing. |
 | 010 | 1000-unit construction grid | All marks built on a 1000×1000 grid for perfect symmetry and reproducible scaling. |
+| 012 | Clear-space unit X = chevron stroke height (130u) | Tying clear space to a real element of the mark makes it scale-independent and self-documenting. Minimum size floors: 24px digital / 25mm embroidery (shield). |

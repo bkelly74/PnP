@@ -1,5 +1,19 @@
 # CHANGELOG — MATCHDAY CLUB® (Project Atlas)
 
+## 2026-06-27 — Session 004 (Usage rules — clear space, minimum size, misuse)
+### Added
+- `01_Brand/Usage/MDC_Clearspace.svg` — clear-space diagram; keep-out = X on all sides (X = chevron stroke height, 130u).
+- `01_Brand/Usage/MDC_Minimum_Size.svg` — minimum-size diagram; digital 24px / embroidery 25mm floors, shown to relative scale.
+- `01_Brand/Usage/MDC_Misuse.svg` — six prohibited treatments (stretch, rotate, recolour, shadow, outline, low contrast).
+- `01_Brand/Usage/MDC_Usage.md` — consolidated logo usage rules.
+### Changed
+- Brand Standards §3 (clear space + minimum size) and §6 (Misuse) completed and linked to the diagrams.
+### Decisions
+- DR-012 locked: clear-space unit X = chevron stroke height (130u); min-size floors 24px / 25mm.
+### QA
+- All three diagrams rendered (Chromium) and verified against master geometry; well-formed XML; PASS at 9.5.
+- SVG is source of truth (DR-009); render PNGs were QA-only and not committed.
+
 ## 2026-06-27 — Session 003 (Live-site brand review — blocked, scaffold staged)
 ### Added
 - `01_Brand/Brand_Review_LiveSite.md` — comparison scaffold (house marks vs. live site), with the egress-block evidence and an intake checklist to complete the review.

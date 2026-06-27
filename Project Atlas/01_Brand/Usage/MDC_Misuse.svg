@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 860" role="img" aria-label="Matchday Club logo misuse">
+  <title>Matchday Club — Misuse (Do Not)</title>
+  <!--
+    Six prohibited treatments. Each panel: the shield mistreated, overlaid with a
+    prohibition mark. The shield must never be stretched, rotated, recoloured
+    outside the system, shadowed, outlined, or placed at low contrast.
+  -->
+  <defs>
+    <filter id="ds" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="14" dy="16" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+    <g id="no" stroke="#B23A2E" stroke-width="14" fill="none" stroke-opacity="0.92">
+      <circle r="115"/>
+      <line x1="-81" y1="-81" x2="81" y2="81"/>
+    </g>
+  </defs>
+
+  <text x="60" y="64" font-family="Archivo, Arial, sans-serif" font-size="40" font-weight="700" letter-spacing="3" fill="#0E0E0E">MISUSE — DO NOT</text>
+
+  <!-- 1. Stretch (non-uniform scale) -->
+  <g transform="translate(210 250) scale(0.30 0.16) translate(-500 -515)">
+    <path d="M180 150 L820 150 L820 520 C820 700 700 800 500 880 C300 800 180 700 180 520 Z" fill="#0E0E0E"/>
+    <path d="M500 350 L700 545 L700 675 L500 480 L300 675 L300 545 Z" fill="#ECE8E1"/>
+  </g>
+  <use href="#no" x="210" y="250"/>
+  <text x="210" y="402" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-size="26" font-weight="700" fill="#0E0E0E">DON'T STRETCH</text>
+  <text x="210" y="432" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-size="22" fill="#2A2A2A">Keep the aspect ratio locked.</text>
+
+  <!-- 2. Rotate -->
+  <g transform="translate(620 250) rotate(14) scale(0.22) translate(-500 -515)">
+    <path d="M180 150 L820 150 L820 520 C820 700 700 800 500 880 C300 800 180 700 180 520 Z" fill="#0E0E0E"/>
+    <path d="M500 350 L700 545 L700 675 L500 480 L300 675 L300 545 Z" fill="#ECE8E1"/>
+  </g>
+  <use href="#no" x="620" y="250"/>
+  <text x="620" y="402" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-size="26" font-weight="700" fill="#0E0E0E">DON'T ROTATE</text>
+  <text x="620" y="432" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-size="22" fill="#2A2A2A">The shield always sits upright.</text>
+
+  <!-- 3. Recolour outside the system -->
+  <g transform="translate(1030 250) scale(0.22) translate(-500 -515)">
+    <path d="M180 150 L820 150 L820 520 C820 700 700 800 500 880 C300 800 180 700 180 520 Z" fill="#1E63E6"/>
+    <path d="M500 350 L700 545 L700 675 L500 480 L300 675 L300 545 Z" fill="#FFFFFF"/>
+  </g>
+  <use href="#no" x="1030" y="250"/>
+  <text x="1030" y="402" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-size="26" font-weight="700" fill="#0E0E0E">DON'T RECOLOUR</text>
+  <text x="1030" y="432" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-size="22" fill="#2A2A2A">Stay inside the palette.</text>
+
+  <!-- 4. Drop shadow -->
+  <g transform="translate(210 600) scale(0.22) translate(-500 -515)" filter="url(#ds)">
+    <path d="M180 150 L820 150 L820 520 C820 700 700 800 500 880 C300 800 180 700 180 520 Z" fill="#0E0E0E"/>
+    <path d="M500 350 L700 545 L700 675 L500 480 L300 675 L300 545 Z" fill="#ECE8E1"/>
+  </g>
+  <use href="#no" x="210" y="600"/>
+  <text x="210" y="752" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-size="26" font-weight="700" fill="#0E0E0E">DON'T ADD SHADOW</text>
+  <text x="210" y="782" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-size="22" fill="#2A2A2A">No depth effects or glows.</text>
+
+  <!-- 5. Outline added -->
+  <g transform="translate(620 600) scale(0.22) translate(-500 -515)">
+    <path d="M180 150 L820 150 L820 520 C820 700 700 800 500 880 C300 800 180 700 180 520 Z" fill="#0E0E0E" stroke="#B23A2E" stroke-width="34"/>
+    <path d="M500 350 L700 545 L700 675 L500 480 L300 675 L300 545 Z" fill="#ECE8E1"/>
+  </g>
+  <use href="#no" x="620" y="600"/>
+  <text x="620" y="752" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-size="26" font-weight="700" fill="#0E0E0E">DON'T OUTLINE</text>
+  <text x="620" y="782" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-size="22" fill="#2A2A2A">No added strokes or keylines.</text>
+
+  <!-- 6. Low contrast on a clashing ground -->
+  <rect x="900" y="490" width="260" height="220" rx="10" fill="#2A2A2A"/>
+  <g transform="translate(1030 600) scale(0.22) translate(-500 -515)">
+    <path d="M180 150 L820 150 L820 520 C820 700 700 800 500 880 C300 800 180 700 180 520 Z" fill="#14342B"/>
+    <path d="M500 350 L700 545 L700 675 L500 480 L300 675 L300 545 Z" fill="#1E261F"/>
+  </g>
+  <use href="#no" x="1030" y="600"/>
+  <text x="1030" y="752" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-size="26" font-weight="700" fill="#0E0E0E">DON'T DROP CONTRAST</text>
+  <text x="1030" y="782" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-size="22" fill="#2A2A2A">Keep figure and ground clear.</text>
+</svg>

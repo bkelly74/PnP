@@ -1,5 +1,15 @@
 # CHANGELOG — THE MATCH DAY CLUB (Project Atlas)
 
+## 2026-06-27 — Session 009 (M5 — Website design system)
+### Added (`05_Website/`)
+- `mdc-tokens.css` — design tokens mirroring the live CSS (colour, fluid type scale, 8-pt space,
+  radius, motion) + primitive component styles.
+- `MDC_Web_Components.svg` — component sheet: nav, buttons, pills, tier/item cards, input+CTA,
+  stats/streak, colour tokens.
+- `MDC_Homepage_Wireframe.svg` — homepage layout blueprint.
+- `MDC_Web_Design_System.md` — foundations, components, layout, photography/art direction,
+  accessibility (AA, green-not-on-white), responsive rules.
+
 ## 2026-06-27 — Session 008 (M4 — Product system)
 ### Added (`02_Products/`)
 - `MDC_Product_System.md` — range architecture (Starter/Pro, monthly themes), mark application

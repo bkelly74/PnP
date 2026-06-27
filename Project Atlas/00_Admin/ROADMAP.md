@@ -27,8 +27,11 @@
 - ✅ Consumable labels (hydration sachet, energy bar wrap)
 - ✅ Gamification — reward badges + monthly challenge card
 
-## M5 — Website Design System
-- Editorial layout, large whitespace, performance-led photography direction
+## M5 — Website Design System  _(complete)_
+- ✅ Design tokens (`mdc-tokens.css`) — colour/type/space/radius/motion
+- ✅ Component sheet (nav, buttons, pills, tier/item cards, input, stats)
+- ✅ Homepage layout blueprint
+- ✅ Photography/art direction + accessibility + responsive rules
 
 ## M6 — Marketing Assets & Brand Standards Manual
 - Social system, campaign templates

@@ -1,0 +1,53 @@
+/* THE MATCH DAY CLUB — design tokens
+   Colour values mirror the live site CSS; scale + spacing formalised for the system. */
+:root {
+  /* Colour */
+  --bg: #0A0B0D;            /* page ground */
+  --bg-2: #0E1013;          /* secondary ground / nav */
+  --surface: #15181C;       /* cards */
+  --surface-2: #1B1F25;     /* raised */
+  --surface-3: #23282F;     /* highest / borders */
+  --ink: #F5F7F8;           /* primary text */
+  --muted: #9AA1AA;         /* secondary text */
+  --muted-2: #7D848E;       /* tertiary text */
+  --line: rgba(255,255,255,.09);
+  --line-strong: rgba(255,255,255,.16);
+  --green: #8BC63F;         /* signal */
+  --green-bright: #A6E24A;  /* hover */
+  --green-deep: #6AA62E;    /* pressed / on-light */
+  --green-glow: rgba(139,198,63,.38);
+
+  /* Type */
+  --font-display: "Anton", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font: "Archivo", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --fs-300: 0.875rem;       /* 14 — small / labels */
+  --fs-400: 1rem;           /* 16 — body */
+  --fs-500: 1.25rem;        /* 20 — lead */
+  --fs-600: clamp(1.5rem, 1.1rem + 1.6vw, 2rem);     /* h3 */
+  --fs-700: clamp(2rem, 1.3rem + 3vw, 3rem);         /* h2 */
+  --fs-900: clamp(2.75rem, 1.4rem + 6vw, 5.5rem);    /* display (Anton) */
+  --lh-tight: 1.04;  --lh: 1.55;
+  --track-display: .5px;  --track-caps: 3px;
+
+  /* Space (8-pt) */
+  --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px; --s-5: 24px;
+  --s-6: 32px; --s-7: 48px; --s-8: 64px; --s-9: 96px; --s-10: 128px;
+
+  /* Radius / layout / motion */
+  --radius: 18px; --radius-lg: 26px; --radius-pill: 999px;
+  --maxw: 1200px; --gutter: clamp(16px, 4vw, 48px);
+  --ease: cubic-bezier(.2,.7,.2,1);
+  --dur: .25s; --dur-slow: .5s;
+}
+
+/* Primitives */
+body { background: var(--bg); color: var(--ink); font-family: var(--font); font-size: var(--fs-400); line-height: var(--lh); }
+h1,.display { font-family: var(--font-display); font-size: var(--fs-900); line-height: var(--lh-tight); letter-spacing: var(--track-display); }
+h2 { font-family: var(--font-display); font-size: var(--fs-700); line-height: var(--lh-tight); }
+.eyebrow { font-weight: 800; letter-spacing: var(--track-caps); text-transform: uppercase; color: var(--green); font-size: var(--fs-300); }
+.btn { display:inline-flex; align-items:center; gap:.5em; padding:.8em 1.4em; border-radius: var(--radius-pill); font-weight: 800; transition: transform var(--dur) var(--ease), background var(--dur) var(--ease); }
+.btn-primary { background: var(--green); color: var(--bg); }
+.btn-primary:hover { background: var(--green-bright); transform: translateY(-1px); }
+.btn-ghost { background: transparent; color: var(--ink); border: 2px solid var(--ink); }
+.card { background: var(--surface); border: 1px solid var(--surface-3); border-radius: var(--radius-lg); padding: var(--s-6); }
+:focus-visible { outline: 3px solid var(--green-glow); outline-offset: 2px; }

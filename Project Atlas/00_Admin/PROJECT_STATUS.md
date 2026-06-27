@@ -37,7 +37,7 @@ live logo artwork** — geometry-accurate, not a hand reconstruction.
 
 ## Blocked / Open Items
 - **Owner master vector (pixel-exact only):** marks are vector-traced/geometric from the live
-  artwork (160px source). Edges are clean; for pixel-exact proportions at the largest scales,
+  artwork (390px source, `assets/logo-shield.png`). Edges are clean; for pixel-exact proportions at the largest scales,
   request the brand's master vector (AI/SVG/EPS) + exact wordmark kerning to replace 1:1 (DR-016).
 - True Adobe-native exports (.ai/.eps) generated downstream from this vector geometry (DR-009).
 

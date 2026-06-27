@@ -16,7 +16,7 @@ Geometric, resolution-independent vectors of the shield mark for large-format pr
   crisp at billboard scale (no traced-pixel wobble), at the cost of the green bevel (flat green).
 
 ## Honest limitation
-Both are derived from the brand's live logo raster (160×183 px). The print masters have
+Both are derived from the brand's live logo raster (`assets/logo-shield.png`, 390×445 px). The print masters have
 **clean straight edges** (resolution-independent), but their vertex *positions* are still measured
 from that source. For pixel-exact proportions at the largest scales, request the owner's true
 master vector (AI/EPS) and replace these 1:1 (DR-016).

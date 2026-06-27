@@ -19,7 +19,7 @@ direction, Atlas has been **realigned to the live brand** in this same session.
 ## Observed marks (sources captured from the live site)
 | Element | Live value | Source |
 |---------|-----------|--------|
-| Logo | Double-keyline shield + hollow "M" monogram, green down-chevron + green accent stroke | `assets/logo-shield-small.png` (160×183) |
+| Logo | Double-keyline shield + "MD" monogram, green down-chevron + two-tone green accent stroke | `assets/logo-shield.png` (390×445; small variant 160×183 also exists) |
 | Wordmark | `THE` (green) · `MATCH DAY` · `CLUB`, on the box lockup | hero + `assets/box-photo.jpg` |
 | Display type | **Anton** | `fonts.googleapis.com/css2?family=Anton` |
 | Body type | **Archivo** (400–900) | `…&family=Archivo:wght@400;600;700;800;900` |
@@ -51,5 +51,5 @@ direction, Atlas has been **realigned to the live brand** in this same session.
 
 ## Open item
 - For print-critical reproduction, request the owner's **master vector** (AI/SVG/EPS) and exact
-  wordmark kerning to replace the trace 1:1 (the trace is from a 160px source, so curves are clean
+  wordmark kerning to replace the trace 1:1 (the trace is from the 390px site asset, so curves are clean
   but ultimately limited by that resolution).

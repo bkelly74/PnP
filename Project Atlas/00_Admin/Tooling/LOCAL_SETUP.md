@@ -80,8 +80,8 @@ Photoshop is the same pattern via `Photoshop.Application` (it also supports `Fil
 - **Errors don't surface in the shell** — the scripts log to the Desktop; have the agent read it.
 - **UAC / first COM use** may prompt once to allow automation.
 - **Pantone** — scripts set *approximate* CMYK; confirm exact spot colours against a physical book.
-- **160px source** — the biggest fidelity lever is giving the agent a *higher-resolution* logo
-  locally; then `image_trace.jsx` (Illustrator's own tracer) will beat the web-logo trace.
+- **Source resolution** — masters derive from the site's 390px logo. A higher-res *original* would
+  sharpen them via `image_trace.jsx`, but it is optional; the current masters are production-usable.
 
 ## What's in this kit
 - `illustrator/build_master.jsx` — clean vector → true `.ai/.eps/.pdf` + 4× PNG with brand **spot colours**.

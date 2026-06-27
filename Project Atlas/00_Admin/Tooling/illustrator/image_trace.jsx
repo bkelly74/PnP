@@ -1,7 +1,7 @@
 /*
  * image_trace.jsx — The Match Day Club
  * Runs Illustrator's native Image Trace on a raster logo and expands it to clean vector.
- * Use this if you have a HIGHER-RESOLUTION source than the 160px web logo (Illustrator's
+ * Use this if you have a HIGHER-RESOLUTION source than the website's 390px logo (Illustrator's
  * tracer + your good source = the best automated path to a true master).
  *
  * Steps: place raster -> Image Trace (tuned for a flat 2-colour mark) -> Expand -> export.

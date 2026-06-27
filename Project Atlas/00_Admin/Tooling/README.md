@@ -19,8 +19,9 @@ only if you want the agent to iterate (retrace a higher-res source, fix script e
 colours, or produce the rest of the brand/packaging assets).
 
 > Quality note: with either path, the *artwork* is only as sharp as the source you feed it. The
-> repo masters derive from the 160px web logo. The single biggest upgrade is dropping a
-> **higher-resolution logo** on your machine and running `image_trace.jsx`.
+> repo masters derive from the website's **390px** logo (`assets/logo-shield.png`, the largest the
+> site serves). A higher-resolution *original* would sharpen them further via `image_trace.jsx`,
+> but it is not required — the current masters are clean and production-usable.
 
 ## Files
 - `illustrator/build_master.jsx` — opens the clean vector master, sets brand **spot colours**,

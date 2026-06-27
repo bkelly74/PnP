@@ -1,5 +1,20 @@
 # CHANGELOG — THE MATCH DAY CLUB (Project Atlas)
 
+## 2026-06-27 — Session 005f (Higher-res source — re-traced all masters)
+Found a **larger logo on the live site** and rebuilt every master from it.
+### Found
+- `assets/logo-shield.png` — **390×445** (≈6× the pixels of the 160×183 `logo-shield-small.png`
+  used until now). Same mark, sharper. Discovered by probing the site's asset paths.
+### Changed (re-traced from the 390px source)
+- Curve masters: `MDC_Shield_Master.svg`, `MDC_Product_Identity.svg`, one-colour
+  `MDC_Performance_Mark.svg`, `MDC_Shield_Construction.svg`, `08_Exports/Web/MDC_Shield_Reverse.svg`.
+- Corporate lockup + reverse (traced shield + outlined wordmark) re-built on the new geometry.
+- Usage diagrams (clear-space / minimum-size / misuse) regenerated.
+- Geometric print masters `08_Exports/Print/MDC_Shield_Master_Print.svg` + mono — vertices now
+  measured from the 390px source (more accurate), still RDP-regularised to straight edges.
+### Verified
+- New masters rendered against the 390px original — faithful; all SVGs well-formed.
+
 ## 2026-06-27 — Session 005e (Local Adobe tooling kit)
 This remote container has no Adobe apps and can't reach the user's PC. Added a kit so the user's
 own Illustrator/Photoshop (Windows 11) can produce true Adobe-native masters.

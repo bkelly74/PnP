@@ -31,9 +31,13 @@ live logo artwork** — geometry-accurate, not a hand reconstruction.
 ## Work In Progress
 - Standards Manual is realigned and substantially complete (§1–6); consolidate at M6.
 
+## Large-format print
+- Added geometric, straight-edge masters in `08_Exports/Print/` (resolution-independent for
+  billboards/signage). Digital master stays in `01_Brand/Logo/` (DR-017).
+
 ## Blocked / Open Items
-- **Owner master vector (print-critical only):** the repo mark is **vector-traced from the live
-  artwork** and is geometry-accurate, but the source raster was 160px. For print-critical work,
+- **Owner master vector (pixel-exact only):** marks are vector-traced/geometric from the live
+  artwork (160px source). Edges are clean; for pixel-exact proportions at the largest scales,
   request the brand's master vector (AI/SVG/EPS) + exact wordmark kerning to replace 1:1 (DR-016).
 - True Adobe-native exports (.ai/.eps) generated downstream from this vector geometry (DR-009).
 

@@ -1,5 +1,22 @@
 # CHANGELOG — THE MATCH DAY CLUB (Project Atlas)
 
+## 2026-06-27 — Session 005d (Geometric master for large-format print)
+A zoom test showed that any trace of the 160px source wobbles at billboard scale (curve and
+polygon alike). So a **geometric, straight-edge master** was built for large-format print.
+### Tooling / method
+- Traced the live logo in **polygon mode** (potrace, `optCurve:false`, high upscale), then
+  **RDP-regularised** every outline so wobbly traced edges collapse to true straight lines
+  (the pen-tool-on-a-template approach). Verified via vector-outline render.
+### Added
+- `08_Exports/Print/MDC_Shield_Master_Print.svg` — full-colour geometric master (straight edges).
+- `08_Exports/Print/MDC_Shield_Mono_Print.svg` — one-colour geometric master.
+- `08_Exports/Print/README.md` — when to use the print masters vs the digital master + honest limits.
+### Decisions
+- DR-017: two master forms — curve (digital) + geometric (print).
+### Notes
+- Both still derive from the 160px live raster; edges are now clean/straight, but the owner's true
+  master vector is still the way to get pixel-exact proportions at the largest scales.
+
 ## 2026-06-27 — Session 005c (Outline the wordmark from the real fonts)
 The wordmark was converted from live text to **true vector outlines** of the real typefaces.
 ### Tooling

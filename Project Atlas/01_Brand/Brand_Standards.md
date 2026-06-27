@@ -25,6 +25,7 @@ accent stroke** (two-tone: bright `#8BC63F` + deep `#6AA62E` bevel) down the cen
 brand near-black; green is the signal.
 - Vector-traced from the live artwork; monogram hollows are true transparency, so the mark drops onto any ground.
 - The mark is **not** bilaterally symmetric — the right side reads as the "D"; do not "correct" it to a symmetric M.
+- **Large-format print:** use the geometric, straight-edge masters in `08_Exports/Print/` (resolution-independent). The Logo-folder master is for digital/screen.
 
 ### Clear space
 Clear space on all sides = **X**, where **X = the height of the green down-chevron** in the mark.

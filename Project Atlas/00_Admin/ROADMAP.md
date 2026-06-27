@@ -5,12 +5,13 @@
 - Colour system, typography, clear-space & minimum-size rules
 - Logo pack exports (SVG/PDF/PNG; AI/EPS generated downstream)
 
-## M2 — Supplier Pack
-- Embroidery pack (digitising notes, stitch counts, pull compensation)
-- Knitting pack (gauge, intarsia/jacquard guidance)
-- Silicone guide (relief depth, draft angles, minimum web)
-- Pantone + thread cross-reference
-- Placement + construction guides → Factory PDF
+## M2 — Supplier Pack  _(in progress)_
+- ✅ Embroidery pack (digitising notes, stitch counts, pull compensation)
+- ✅ Knitting pack (gauge, intarsia/jacquard guidance)
+- ✅ Silicone guide (relief depth, draft angles, minimum web)
+- ✅ Pantone + thread cross-reference (method + table to confirm with factory)
+- ✅ Placement + size guide (SVG)
+- ⬜ Consolidate to a single Factory PDF; confirm Pantone/thread on a strike-off
 
 ## M3 — Packaging System
 - Matte black box system, sleeves, tissue, swing tags

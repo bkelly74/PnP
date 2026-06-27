@@ -1,5 +1,21 @@
 # CHANGELOG — THE MATCH DAY CLUB (Project Atlas)
 
+## 2026-06-27 — Session 006 (M2 — Supplier / Factory Pack)
+Started M2: production specs for applying the mark across manufacturing methods.
+### Added (`04_Supplier/`)
+- `MDC_Supplier_Pack.md` — factory-handoff index: artwork to supply, golden rules, placement
+  coordinates, minimum applied size by method.
+- `Color/MDC_Color_Thread_Reference.md` — HEX/RGB authoritative; suggested CMYK + Pantone
+  candidates (368/376 C); thread-match method + sign-off table.
+- `Embroidery/MDC_Embroidery_Spec.md` — satin/fill plan, density, underlay, pull compensation,
+  backing/topping for stretch kit, stitch-count estimate, 50 mm detail floor.
+- `Knit/MDC_Knit_Spec.md` — gauge, intarsia/jacquard, knit-simplified mark, sock application.
+- `Silicone/MDC_Silicone_Spec.md` — relief depth, ≥10–15° draft, ≥0.6 mm line/web minimums.
+- `Placement/MDC_Placement_Guide.svg` — size ladder (65/55/45/22 mm) built from the current mark.
+### Notes
+- Every figure is a confirm-with-factory starting spec; Pantone/thread to be locked on a strike-off.
+- ROADMAP M2 marked in progress; PROJECT_STATUS updated (Overall 24%, M2 70%).
+
 ## 2026-06-27 — Session 005f (Higher-res source — re-traced all masters)
 Found a **larger logo on the live site** and rebuilt every master from it.
 ### Found

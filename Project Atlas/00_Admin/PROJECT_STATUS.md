@@ -1,13 +1,13 @@
 # PROJECT STATUS — THE MATCH DAY CLUB (Project Atlas)
 
-_Last updated: 2026-06-27 (Session 005 — realignment to the live brand)_
+_Last updated: 2026-06-27 (Session 006 — Supplier Pack, M2)_
 
 ## Current Milestone
-**M1 — Brand Identity Foundation** (realigned to the real brand)
+**M2 — Supplier Pack** (M1 identity complete & accurate)
 
 ## Estimated Completion
-**Overall project: 16%**
-**M1 (Identity Foundation): 82%**
+**Overall project: 24%**
+**M1 (Identity Foundation): 90%** · **M2 (Supplier Pack): 70%**
 
 ## Headline this session
 The live site became reachable and the prior identity was found to be **invented** — it bore no
@@ -42,8 +42,9 @@ live logo artwork** — geometry-accurate, not a hand reconstruction.
 - True Adobe-native exports (.ai/.eps) generated downstream from this vector geometry (DR-009).
 
 ## Next Tasks
-1. (Optional) Obtain the owner's master logo vector for print-critical precision.
-2. Begin Supplier Pack (M2): embroidery digitising for the one-colour mark; Pantone/thread for `#8BC63F`.
+1. Confirm Pantone (green ≈ 368/376 C) + thread numbers on a physical strike-off; fill the
+   `Color/MDC_Color_Thread_Reference.md` sign-off table.
+2. Consolidate the Supplier Pack into a single Factory PDF.
 3. Packaging (M3): the matte-black box system already used on the live product photography.
 
 ## QA Status

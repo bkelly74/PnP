@@ -1,5 +1,20 @@
 # CHANGELOG — THE MATCH DAY CLUB (Project Atlas)
 
+## 2026-06-27 — Session 011 (Straight-edge cleanup across all deliverables)
+Feedback: edges needed sharpening/straightening. Made the **RDP-regularised straight-edge
+geometry the universal base** and regenerated everything from it.
+### Changed
+- Core marks (master, product, one-colour, reverse) rebuilt on clean straight-edge geometry;
+  the green re-regularised to clean shapes (triangle chevron + straight quad stem, single flat
+  green `#8BC63F`). No traced wobble.
+- Regenerated **all dependents**: corporate lockup + reverse, construction grid, usage diagrams,
+  packaging artwork, product labels + gamification, web components + wireframe, social templates,
+  and both PDFs (Factory Pack + Brand Standards Manual). Grip-socks supplier bundle refreshed.
+- DR-017 amended: geometric everywhere (digital now matches print); the two-tone green bevel
+  dropped in favour of clean straight single-tone green.
+### Notes
+- File sizes dropped sharply (master 32 KB → <1 KB) — the artwork is now clean polygons.
+
 ## 2026-06-27 — Session 010 (M6 — Marketing + Brand Standards Manual)
 ### Added (`06_Social/`)
 - `MDC_Post_1080.svg`, `MDC_Story_1080x1920.svg`, `MDC_Avatar_512.svg` — social templates.

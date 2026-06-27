@@ -16,6 +16,15 @@ Started M2: production specs for applying the mark across manufacturing methods.
 - Every figure is a confirm-with-factory starting spec; Pantone/thread to be locked on a strike-off.
 - ROADMAP M2 marked in progress; PROJECT_STATUS updated (Overall 24%, M2 70%).
 
+## 2026-06-27 — Session 006b (M2 complete — Factory Pack PDF)
+### Added
+- `04_Supplier/MDC_Factory_Pack.pdf` — consolidated 7-page A4 Factory Pack (cover, overview,
+  colour/thread, embroidery, knit/silicone, placement, sign-off), generated headless (Chromium)
+  from the on-brand HTML source.
+- `04_Supplier/MDC_Factory_Pack.html` — regenerable source for the PDF.
+### Status
+- M2 deliverables complete; only the physical Pantone/thread strike-off (a factory step) remains.
+
 ## 2026-06-27 — Session 005f (Higher-res source — re-traced all masters)
 Found a **larger logo on the live site** and rebuilt every master from it.
 ### Found

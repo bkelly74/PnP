@@ -6,8 +6,8 @@ _Last updated: 2026-06-27 (Session 006 — Supplier Pack, M2)_
 **M2 — Supplier Pack** (M1 identity complete & accurate)
 
 ## Estimated Completion
-**Overall project: 24%**
-**M1 (Identity Foundation): 90%** · **M2 (Supplier Pack): 70%**
+**Overall project: 28%**
+**M1 (Identity Foundation): 90%** · **M2 (Supplier Pack): 95%** _(Factory PDF done; only the physical strike-off remains)_
 
 ## Headline this session
 The live site became reachable and the prior identity was found to be **invented** — it bore no

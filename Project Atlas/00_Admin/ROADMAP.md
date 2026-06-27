@@ -11,7 +11,8 @@
 - ✅ Silicone guide (relief depth, draft angles, minimum web)
 - ✅ Pantone + thread cross-reference (method + table to confirm with factory)
 - ✅ Placement + size guide (SVG)
-- ⬜ Consolidate to a single Factory PDF; confirm Pantone/thread on a strike-off
+- ✅ Consolidated **Factory Pack PDF** (`04_Supplier/MDC_Factory_Pack.pdf`)
+- ⬜ Confirm Pantone/thread on a physical strike-off (factory step)
 
 ## M3 — Packaging System
 - Matte black box system, sleeves, tissue, swing tags

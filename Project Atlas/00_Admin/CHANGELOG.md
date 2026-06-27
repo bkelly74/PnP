@@ -1,5 +1,17 @@
 # CHANGELOG — THE MATCH DAY CLUB (Project Atlas)
 
+## 2026-06-27 — Session 010 (M6 — Marketing + Brand Standards Manual)
+### Added (`06_Social/`)
+- `MDC_Post_1080.svg`, `MDC_Story_1080x1920.svg`, `MDC_Avatar_512.svg` — social templates.
+- `MDC_Social_System.md` — formats, content pillars, voice, do/don't, accessibility.
+### Added (`01_Brand/`)
+- **`MDC_Brand_Standards_Manual.pdf`** — consolidated 10-page manual (position, mark, construction,
+  clear space/min size, misuse, colour, type, packaging, product, web, index), embedding the real
+  artwork. `MDC_Brand_Standards_Manual.html` is the regenerable source.
+### Status
+- **M1–M6 all delivered.** Remaining is physical/real-world (strike-offs, samples, photography, build).
+- ROADMAP closed out; PROJECT_STATUS updated.
+
 ## 2026-06-27 — Session 009 (M5 — Website design system)
 ### Added (`05_Website/`)
 - `mdc-tokens.css` — design tokens mirroring the live CSS (colour, fluid type scale, 8-pt space,

@@ -33,6 +33,10 @@
 - ✅ Homepage layout blueprint
 - ✅ Photography/art direction + accessibility + responsive rules
 
-## M6 — Marketing Assets & Brand Standards Manual
-- Social system, campaign templates
-- Consolidated Brand Standards Manual (production-ready)
+## M6 — Marketing Assets & Brand Standards Manual  _(complete)_
+- ✅ Social system + templates (post / story / avatar)
+- ✅ **Consolidated Brand Standards Manual** — `01_Brand/MDC_Brand_Standards_Manual.pdf` (10-page)
+
+---
+**All milestones M1–M6 delivered.** Remaining work is physical/real-world: factory strike-offs &
+samples (Pantone/thread, box, products), real photography, and the live site build to the system.

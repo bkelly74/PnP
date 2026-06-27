@@ -1,13 +1,13 @@
 # PROJECT STATUS — THE MATCH DAY CLUB (Project Atlas)
 
-_Last updated: 2026-06-27 (Session 007 — Packaging, M3)_
+_Last updated: 2026-06-27 (Session 010 — M6 complete; M1–M6 all delivered)_
 
 ## Current Milestone
-**M3 — Packaging System** (M1 identity + M2 supplier pack complete)
+**All milestones M1–M6 delivered** — the brand system is complete in-repo.
 
 ## Estimated Completion
-**Overall project: 38%**
-**M1: 90%** · **M2 (Supplier Pack): 95%** · **M3 (Packaging): 95%** _(specs + artwork done; converter sample remains)_
+**Overall project: 92%** _(remaining 8% is physical/real-world: factory sign-offs, photography, live build)_
+**M1 Identity 95% · M2 Supplier 95% · M3 Packaging 95% · M4 Product 100% · M5 Web 100% · M6 Marketing/Manual 100%**
 
 ## Headline this session
 The live site became reachable and the prior identity was found to be **invented** — it bore no
@@ -41,10 +41,11 @@ live logo artwork** — geometry-accurate, not a hand reconstruction.
   request the brand's master vector (AI/SVG/EPS) + exact wordmark kerning to replace 1:1 (DR-016).
 - True Adobe-native exports (.ai/.eps) generated downstream from this vector geometry (DR-009).
 
-## Next Tasks
-1. Factory steps (owner): Pantone/thread strike-off (M2); converter dieline + finished box sample (M3).
-2. **M4 — Product system:** range architecture and product-level shield application.
-3. **M5 — Website design system;** **M6 — marketing + consolidated Brand Standards Manual.**
+## Remaining (real-world / owner)
+1. Factory sign-offs: Pantone/thread strike-off; box converter sample; per-product samples.
+2. Real photography to the art-direction in the web + social systems.
+3. Build the live site to `05_Website` (tokens + components).
+4. (Optional) Replace traced/outlined art with the owner's true master vector if it surfaces.
 
 ## QA Status
 | Asset | Score | Verdict |

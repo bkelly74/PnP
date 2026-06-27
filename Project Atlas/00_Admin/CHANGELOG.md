@@ -1,5 +1,20 @@
 # CHANGELOG — MATCHDAY CLUB® (Project Atlas)
 
+## 2026-06-27 — Session 002 (Typeface lock + outlined wordmark)
+### Added
+- `01_Brand/Logo/MDC_Wordmark.svg` — wordmark outlined to vector (Archivo).
+- `01_Brand/Logo/MDC_Corporate_Logo.svg` — rebuilt with outlined wordmark (replaces draft).
+- `08_Exports/Web/MDC_Corporate_Logo_Reverse.svg` — reverse corporate lockup.
+- `01_Brand/Typography/MDC_Typography.md` — type system spec.
+- `01_Brand/Typography/Archivo-OFL.txt` — font licence retained in project.
+### Changed
+- Brand Standards §5 (Typography) filled in.
+- Draft corporate logo archived → `99_Archive/MDC_Corporate_Logo_v1_draft.svg`.
+### Decisions
+- DR-011 locked (Archivo, SIL OFL); DR-008 resolved by it.
+### QA
+- Wordmark + Corporate Identity now PASS at 9.5.
+
 ## 2026-06-27 — Session 001 (Foundation)
 ### Added
 - Project Atlas folder structure (00_Admin … 99_Archive).

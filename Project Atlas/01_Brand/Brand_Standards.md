@@ -29,8 +29,10 @@ on all sides. Nothing intrudes.
 ## 4. Colour
 See `01_Brand/Color/MDC_Color_System.md`. Mono-first; single Pitch accent, sparing.
 
-## 5. Typography  _(pending — DR-008)_
-Primary/secondary typeface to be locked, then the wordmark outlined to vector.
+## 5. Typography
+Typeface locked: **Archivo superfamily (SIL OFL)** — see `01_Brand/Typography/MDC_Typography.md`.
+Wordmark (`MATCHDAY` Expanded Bold / `CLUB` Expanded Regular, wide-tracked) is outlined to
+vector in `MDC_Wordmark.svg` and `MDC_Corporate_Logo.svg`.
 
 ## 6. Misuse  _(to draft)_
 No stretching, recolouring outside the system, rotation, drop shadows, or outlines.

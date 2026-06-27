@@ -1,13 +1,13 @@
 # PROJECT STATUS — MATCHDAY CLUB® (Project Atlas)
 
-_Last updated: 2026-06-27_
+_Last updated: 2026-06-27 (Session 002)_
 
 ## Current Milestone
 **M1 — Brand Identity Foundation**
 
 ## Estimated Completion
-**Overall project: 8%**
-**M1 (Identity Foundation): 35%**
+**Overall project: 12%**
+**M1 (Identity Foundation): 55%**
 
 ## Completed Work
 - Project Atlas folder structure established (00–99).
@@ -20,19 +20,17 @@ _Last updated: 2026-06-27_
 - Core colour system defined (neutral-led, single heritage accent).
 
 ## Work In Progress
-- Wordmark typography (currently set in a system-safe stack pending typeface lock — see DR-008).
-- Brand Standards Manual (first sections drafted in `01_Brand`).
+- Brand Standards Manual (§1–5 drafted; misuse + clear-space diagrams next).
 
 ## Blocked Items
-- **Typeface licence (DR-008):** wordmark cannot be outlined to production until the primary typeface is selected and licensed. Strategic/budget item — flagged, not assumed.
+- **Brand awareness (live site):** `matchdayclub.co.uk` is blocked by the environment's egress policy (gateway 403). Needs the network policy widened to allow the domain + a fresh session, or assets pasted in.
 - True Adobe-native exports (.ai / .eps): not produced in this environment. SVG/PDF-ready vector geometry is the authoritative source; .ai/.eps to be generated from these paths in Illustrator. See DR-009.
 
 ## Next Tasks
-1. Lock primary + secondary typeface (requires decision — DR-008).
-2. Outline wordmark to vector once typeface is locked.
-3. Build clear-space and minimum-size rules into the Standards Manual.
-4. Begin Supplier Pack: embroidery digitising notes + stitch-count guidance for the Performance Mark.
-5. Start Packaging system (matte black box system) once shield set passes QA at 9.5.
+1. Get brand awareness (allow site domain or receive current logo/colours/range).
+2. Add clear-space + minimum-size diagrams to the Standards Manual.
+3. Begin Supplier Pack: embroidery digitising notes + stitch-count guidance for the Performance Mark.
+4. Start Packaging system (matte black box system).
 
 ## QA Status
 | Asset | Score | Verdict |
@@ -40,4 +38,5 @@ _Last updated: 2026-06-27_
 | Master Shield (geometry) | 9.6 | PASS |
 | Performance Mark (chevron) | 9.6 | PASS |
 | Product Identity (shield only) | 9.5 | PASS |
-| Corporate Identity (with wordmark) | 8.5 | HOLD — wordmark pending typeface lock |
+| Wordmark (Archivo, outlined) | 9.5 | PASS |
+| Corporate Identity (with outlined wordmark) | 9.5 | PASS |

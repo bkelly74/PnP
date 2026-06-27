@@ -1,5 +1,20 @@
 # CHANGELOG — THE MATCH DAY CLUB (Project Atlas)
 
+## 2026-06-27 — Session 005c (Outline the wordmark from the real fonts)
+The wordmark was converted from live text to **true vector outlines** of the real typefaces.
+### Tooling
+- Installed `opentype.js`; fetched the actual font files (Anton-Regular.ttf from Google Fonts;
+  Archivo ExtraBold static TTF). Generated glyph outlines for `THE` / `MATCH DAY` (Anton) and
+  `CLUB` (Archivo 800) with manual letter-spacing, positioned to the live lockup.
+### Changed
+- `MDC_Wordmark.svg` — rebuilt as outlined glyph paths (was live text). Verified vs the live box lockup.
+- `MDC_Corporate_Logo.svg` / `08_Exports/Web/MDC_Corporate_Logo_Reverse.svg` — traced shield +
+  outlined wordmark; no font dependency on press; dark and light versions.
+### Added
+- `01_Brand/Typography/Anton-OFL.txt` — Anton licence retained (SIL OFL) alongside Archivo's.
+### Docs
+- Typography + Brand Standards updated: wordmark is now outlined/production-ready.
+
 ## 2026-06-27 — Session 005b (Vector-trace the mark from live artwork)
 After realignment, the mark was upgraded from a hand reconstruction to a **vector trace taken
 directly from the live logo** — the local equivalent of Illustrator's Image Trace.

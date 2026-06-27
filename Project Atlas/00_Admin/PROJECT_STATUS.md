@@ -48,7 +48,7 @@ live logo artwork** — geometry-accurate, not a hand reconstruction.
 | Master Shield ("MD" monogram, vector-traced from live art) | 9.6 | PASS |
 | One-colour mark | 9.5 | PASS |
 | Product Identity (shield only) | 9.6 | PASS |
-| Wordmark (Anton/Archivo, editable) | 9.0 | PASS (outline for production) |
-| Corporate lockup | 9.3 | PASS |
+| Wordmark (Anton/Archivo, outlined to vector) | 9.5 | PASS |
+| Corporate lockup (traced shield + outlined wordmark) | 9.6 | PASS |
 | Reverse export (dark-on-light) | 9.5 | PASS |
 | Clear-space / Minimum-size / Misuse diagrams | 9.5 | PASS |

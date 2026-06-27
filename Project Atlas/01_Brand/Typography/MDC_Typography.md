@@ -20,9 +20,10 @@ Loaded via: `fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;600;
 ## Wordmark construction
 - `THE` — Anton, small, **Green** `#8BC63F`, tracked.
 - `MATCH DAY` — Anton, large, Ink `#F5F7F8`.
-- `CLUB` — Archivo 800, small, wide-tracked, Ink, set beneath.
-- Built in `MDC_Wordmark.svg` and `MDC_Corporate_Logo.svg` as editable Anton/Archivo text.
-  **Production must outline to vector** before handoff (no live-text dependency on press).
+- `CLUB` — Archivo ExtraBold (800), small, wide-tracked, Ink, set beneath.
+- **Outlined to vector** in `MDC_Wordmark.svg` and `MDC_Corporate_Logo.svg` — the glyph outlines
+  were generated from the actual font files (opentype.js), so the lockup is true vector with **no
+  live-text/font dependency** on press. Licences retained: `Anton-OFL.txt`, `Archivo-OFL.txt` (both SIL OFL).
 
 ## Rules
 - Anton for display only — never body (it is caps-only and tires at small sizes).

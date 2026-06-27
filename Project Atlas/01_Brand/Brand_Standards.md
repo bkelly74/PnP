@@ -43,8 +43,8 @@ Green is a signal (accents, CTAs, the mark's stroke) — never a large fill.
 
 ## 5. Typography
 **Anton** (display / wordmark) + **Archivo** (body/UI) — both SIL OFL. See
-`01_Brand/Typography/MDC_Typography.md`. The wordmark lockup is editable Anton/Archivo text in
-`MDC_Wordmark.svg` / `MDC_Corporate_Logo.svg`; **outline to vector for production**.
+`01_Brand/Typography/MDC_Typography.md`. The wordmark lockup is **outlined to vector** (real glyph
+outlines) in `MDC_Wordmark.svg` / `MDC_Corporate_Logo.svg` — production-ready, no live-text dependency.
 
 ## 6. Misuse
 The mark is never:

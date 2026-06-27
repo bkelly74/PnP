@@ -1,5 +1,15 @@
 # CHANGELOG — THE MATCH DAY CLUB (Project Atlas)
 
+## 2026-06-27 — Session 008 (M4 — Product system)
+### Added (`02_Products/`)
+- `MDC_Product_System.md` — range architecture (Starter/Pro, monthly themes), mark application
+  matrix across the range, consumable label + gamification rules.
+- `Labels/MDC_Hydration_Sachet.svg`, `Labels/MDC_Energy_Bar_Wrap.svg` — consumable label artwork.
+- `Gamification/MDC_Badges.svg` — six reward badges (shield + glyph + green ring).
+- `Gamification/MDC_Challenge_Card.svg` — monthly challenge card (front/back, streak tracker).
+### Status
+- M4 complete. ROADMAP updated; PROJECT_STATUS to follow with M5/M6.
+
 ## 2026-06-27 — Session 007 (M3 — Packaging system)
 Matte-black packaging system, built from the mark.
 ### Added (`03_Packaging/`)

@@ -21,8 +21,11 @@
 - ✅ Less ink, more confidence; no gradients, no clichés
 - ⬜ Converter production dieline + finished sample sign-off (factory step)
 
-## M4 — Product System
-- Range architecture and product-level shield application
+## M4 — Product System  _(complete)_
+- ✅ Range architecture (Starter/Pro tiers, monthly themes, audience)
+- ✅ Mark application matrix across the range
+- ✅ Consumable labels (hydration sachet, energy bar wrap)
+- ✅ Gamification — reward badges + monthly challenge card
 
 ## M5 — Website Design System
 - Editorial layout, large whitespace, performance-led photography direction

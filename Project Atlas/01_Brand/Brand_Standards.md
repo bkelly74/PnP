@@ -2,7 +2,8 @@
 
 _Realigned to the live brand (matchdayclub.co.uk) in Session 005, after the site became
 reachable. Supersedes the Session 001–004 invented identity (chevron shield, neutral palette).
-The reconstructed mark is faithful to the live raster; replace with the owner's master vector when supplied._
+The mark is **vector-traced (potrace) directly from the live logo artwork** — geometry-accurate;
+request the owner's master vector for print-critical precision (DR-016)._
 
 ## 1. Brand Position
 **The Match Day Club** is a **monthly subscription box for young footballers (ages 12–17)** —
@@ -18,11 +19,12 @@ no lock-in, age-appropriate). Energetic and youth-athletic — gamified with str
 - **One-colour mark** — single-ink build for embroidery/knit/silicone/small sizes (`MDC_Performance_Mark.svg`).
 
 ## 3. The Shield
-A **double-keyline angular shield** (flat top, vertical shoulders, point at the base) holding a
-**hollow outlined "M" monogram**, with a **green down-chevron** in the top notch and a **green
-vertical accent stroke** down the centre. White/Ink on the brand near-black; green is the signal.
-- Built on the 1000-unit grid (DR-010), symmetric about x=500.
-- Monogram hollows are true transparency, so the mark drops onto any ground.
+A **double-keyline angular shield** (flat top, vertical shoulders, point at the base) holding an
+**outlined "MD" monogram**, with a **green down-chevron** in the top notch and an **offset green
+accent stroke** (two-tone: bright `#8BC63F` + deep `#6AA62E` bevel) down the centre. Ink on the
+brand near-black; green is the signal.
+- Vector-traced from the live artwork; monogram hollows are true transparency, so the mark drops onto any ground.
+- The mark is **not** bilaterally symmetric — the right side reads as the "D"; do not "correct" it to a symmetric M.
 
 ### Clear space
 Clear space on all sides = **X**, where **X = the height of the green down-chevron** in the mark.

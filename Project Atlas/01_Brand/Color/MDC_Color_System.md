@@ -33,4 +33,5 @@ Pitch" system (DR-006 superseded by DR-013).
 ## Rules
 - Dark is the default ground; the brand lives on near-black, not white.
 - Green is a **signal**, not a fill — accents, CTAs and the logo stroke, not large areas.
-- No gradients on the mark; the live brand uses a subtle bevel on the green only.
+- No gradients on the mark; the green accent stroke carries a subtle two-tone **bevel**
+  (bright `#8BC63F` + deep `#6AA62E`) — this is the only depth in the mark.

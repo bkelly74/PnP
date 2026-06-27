@@ -1,5 +1,23 @@
 # CHANGELOG — THE MATCH DAY CLUB (Project Atlas)
 
+## 2026-06-27 — Session 005b (Vector-trace the mark from live artwork)
+After realignment, the mark was upgraded from a hand reconstruction to a **vector trace taken
+directly from the live logo** — the local equivalent of Illustrator's Image Trace.
+### Tooling
+- Installed `sharp` + `potrace` (pure-JS). Upscaled the live logo (160×183 → 1500px, lanczos3),
+  split it into ink / bright-green / deep-green channel masks, traced each with potrace, and
+  recoloured to the exact brand hexes. Integer-rounded paths; shared via `<defs>`+`<use>`.
+### Changed
+- `MDC_Shield_Master.svg` / `MDC_Product_Identity.svg` / `MDC_Performance_Mark.svg` (one-colour) /
+  `MDC_Shield_Construction.svg` / `08_Exports/Web/MDC_Shield_Reverse.svg` — rebuilt from the trace.
+- `MDC_Corporate_Logo.svg` — traced shield + wordmark; canvas widened so the lockup never clips.
+- `01_Brand/Usage/*` — clear-space / minimum-size / misuse rebuilt on the traced mark.
+- Captured the true **asymmetric "MD" monogram** and the **two-tone green bevel** (`#8BC63F`/`#6AA62E`).
+### Docs
+- DR-016 updated (mark is traced, not reconstructed); Brand Standards / Colour / Review refreshed.
+### Verified
+- Trace rendered side-by-side against the live logo (near-identical); all SVGs well-formed.
+
 ## 2026-06-27 — Session 005 (Realignment to the live brand)
 The live site became reachable; the prior identity was found to be invented and was realigned
 to the real brand (matchdayclub.co.uk) per the owner's direction.

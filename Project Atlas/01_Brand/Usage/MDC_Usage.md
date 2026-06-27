@@ -5,7 +5,7 @@ geometry; the Brand Standards Manual references them.
 
 ## Clear space — `MDC_Clearspace.svg`
 - Minimum clear space on **all four sides** = **X**, where **X = the height of the green
-  down-chevron** in the mark (106u at master scale).
+  down-chevron** in the mark.
 - Nothing — type, rule, image edge, another mark — may enter the keep-out zone.
 - Clear space scales with the mark: measure X from the mark in use, never a fixed pixel value.
 

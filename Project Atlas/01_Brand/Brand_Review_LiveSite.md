@@ -44,6 +44,12 @@ direction, Atlas has been **realigned to the live brand** in this same session.
   `01_Brand/**` and `08_Exports/**`. Invented chevron marks archived to `99_Archive/`.
 - Decisions DR-006/007/008-naming superseded; see `00_Admin/DECISION_REGISTER.md` (DR-013…016).
 
+## Mark accuracy
+- The repo mark is **vector-traced (potrace) directly from the live logo raster** — the geometry
+  is taken from the real artwork, not hand-drawn. Two-tone green bevel preserved (`#8BC63F` / `#6AA62E`).
+- The wordmark lockup is live Anton/Archivo text (outline for production).
+
 ## Open item
-- The repo mark is a **reconstruction from a 160px raster**. Request the owner's **master vector**
-  (AI/SVG/EPS) of the logo and the exact wordmark kerning to replace the reconstruction 1:1.
+- For print-critical reproduction, request the owner's **master vector** (AI/SVG/EPS) and exact
+  wordmark kerning to replace the trace 1:1 (the trace is from a 160px source, so curves are clean
+  but ultimately limited by that resolution).

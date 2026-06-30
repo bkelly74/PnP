@@ -6,7 +6,7 @@ with trace steps.
 
 | File | What it is |
 |---|---|
-| **`N2C_WBS_Analysis_Report.md`** | Detailed report — calculation model, methodology, findings with trace steps, remediation plan |
+| **`N2C_WBS_Analysis_Report.docx`** | Detailed report (Word) — calculation model, methodology, findings with trace steps, remediation plan |
 | **`N2C_WBS_Issues_Register.xlsx`** | Formatted register — Summary tab + filterable 5,055-row Issue List with cell references |
 | **`N2C_WBS_Issues_List.csv`** | Full issues list as plain CSV |
 | **`analysis/audit.py`** | Reproducible analysis engine — re-run against the source workbook to regenerate every figure |

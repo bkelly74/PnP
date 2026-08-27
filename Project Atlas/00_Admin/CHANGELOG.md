@@ -1,4 +1,201 @@
-# CHANGELOG — MATCHDAY CLUB® (Project Atlas)
+# CHANGELOG — THE MATCH DAY CLUB (Project Atlas)
+
+## 2026-06-27 — Session 010 (M6 — Marketing + Brand Standards Manual)
+### Added (`06_Social/`)
+- `MDC_Post_1080.svg`, `MDC_Story_1080x1920.svg`, `MDC_Avatar_512.svg` — social templates.
+- `MDC_Social_System.md` — formats, content pillars, voice, do/don't, accessibility.
+### Added (`01_Brand/`)
+- **`MDC_Brand_Standards_Manual.pdf`** — consolidated 10-page manual (position, mark, construction,
+  clear space/min size, misuse, colour, type, packaging, product, web, index), embedding the real
+  artwork. `MDC_Brand_Standards_Manual.html` is the regenerable source.
+### Status
+- **M1–M6 all delivered.** Remaining is physical/real-world (strike-offs, samples, photography, build).
+- ROADMAP closed out; PROJECT_STATUS updated.
+
+## 2026-06-27 — Session 009 (M5 — Website design system)
+### Added (`05_Website/`)
+- `mdc-tokens.css` — design tokens mirroring the live CSS (colour, fluid type scale, 8-pt space,
+  radius, motion) + primitive component styles.
+- `MDC_Web_Components.svg` — component sheet: nav, buttons, pills, tier/item cards, input+CTA,
+  stats/streak, colour tokens.
+- `MDC_Homepage_Wireframe.svg` — homepage layout blueprint.
+- `MDC_Web_Design_System.md` — foundations, components, layout, photography/art direction,
+  accessibility (AA, green-not-on-white), responsive rules.
+
+## 2026-06-27 — Session 008 (M4 — Product system)
+### Added (`02_Products/`)
+- `MDC_Product_System.md` — range architecture (Starter/Pro, monthly themes), mark application
+  matrix across the range, consumable label + gamification rules.
+- `Labels/MDC_Hydration_Sachet.svg`, `Labels/MDC_Energy_Bar_Wrap.svg` — consumable label artwork.
+- `Gamification/MDC_Badges.svg` — six reward badges (shield + glyph + green ring).
+- `Gamification/MDC_Challenge_Card.svg` — monthly challenge card (front/back, streak tracker).
+### Status
+- M4 complete. ROADMAP updated; PROJECT_STATUS to follow with M5/M6.
+
+## 2026-06-27 — Session 007 (M3 — Packaging system)
+Matte-black packaging system, built from the mark.
+### Added (`03_Packaging/`)
+- `MDC_Packaging_System.md` — system spec: roll-end tuck mailer (~250×190×80 mm), matte black +
+  blind-deboss/spot-UV shield, swing tag, seal, tissue, unboxing sequence, sustainability.
+- `Box/MDC_Mailer_Box_Dieline.svg` — labelled dieline (cut solid / fold dashed) with dims + legend.
+- `Box/MDC_Box_Lid_Artwork.svg` — lid print: shield + wordmark + finish callouts on matte black.
+- `Swing_Tag/MDC_Swing_Tag.svg` — 50×90 mm tag, front (shield) + back (info/QR).
+- `Seals_Tissue/MDC_Seal_Sticker.svg` — Ø60 mm seal; `…/MDC_Tissue_Repeat.svg` — tonal repeat.
+### Status
+- M3 specs + artwork complete; converter dieline + finished sample is the remaining factory step.
+- ROADMAP M3 complete; PROJECT_STATUS updated (Overall 38%). Next: M4 product system.
+
+## 2026-06-27 — Session 006 (M2 — Supplier / Factory Pack)
+Started M2: production specs for applying the mark across manufacturing methods.
+### Added (`04_Supplier/`)
+- `MDC_Supplier_Pack.md` — factory-handoff index: artwork to supply, golden rules, placement
+  coordinates, minimum applied size by method.
+- `Color/MDC_Color_Thread_Reference.md` — HEX/RGB authoritative; suggested CMYK + Pantone
+  candidates (368/376 C); thread-match method + sign-off table.
+- `Embroidery/MDC_Embroidery_Spec.md` — satin/fill plan, density, underlay, pull compensation,
+  backing/topping for stretch kit, stitch-count estimate, 50 mm detail floor.
+- `Knit/MDC_Knit_Spec.md` — gauge, intarsia/jacquard, knit-simplified mark, sock application.
+- `Silicone/MDC_Silicone_Spec.md` — relief depth, ≥10–15° draft, ≥0.6 mm line/web minimums.
+- `Placement/MDC_Placement_Guide.svg` — size ladder (65/55/45/22 mm) built from the current mark.
+### Notes
+- Every figure is a confirm-with-factory starting spec; Pantone/thread to be locked on a strike-off.
+- ROADMAP M2 marked in progress; PROJECT_STATUS updated (Overall 24%, M2 70%).
+
+## 2026-06-27 — Session 006b (M2 complete — Factory Pack PDF)
+### Added
+- `04_Supplier/MDC_Factory_Pack.pdf` — consolidated 7-page A4 Factory Pack (cover, overview,
+  colour/thread, embroidery, knit/silicone, placement, sign-off), generated headless (Chromium)
+  from the on-brand HTML source.
+- `04_Supplier/MDC_Factory_Pack.html` — regenerable source for the PDF.
+### Status
+- M2 deliverables complete; only the physical Pantone/thread strike-off (a factory step) remains.
+
+## 2026-06-27 — Session 005f (Higher-res source — re-traced all masters)
+Found a **larger logo on the live site** and rebuilt every master from it.
+### Found
+- `assets/logo-shield.png` — **390×445** (≈6× the pixels of the 160×183 `logo-shield-small.png`
+  used until now). Same mark, sharper. Discovered by probing the site's asset paths.
+### Changed (re-traced from the 390px source)
+- Curve masters: `MDC_Shield_Master.svg`, `MDC_Product_Identity.svg`, one-colour
+  `MDC_Performance_Mark.svg`, `MDC_Shield_Construction.svg`, `08_Exports/Web/MDC_Shield_Reverse.svg`.
+- Corporate lockup + reverse (traced shield + outlined wordmark) re-built on the new geometry.
+- Usage diagrams (clear-space / minimum-size / misuse) regenerated.
+- Geometric print masters `08_Exports/Print/MDC_Shield_Master_Print.svg` + mono — vertices now
+  measured from the 390px source (more accurate), still RDP-regularised to straight edges.
+### Verified
+- New masters rendered against the 390px original — faithful; all SVGs well-formed.
+
+## 2026-06-27 — Session 005e (Local Adobe tooling kit)
+This remote container has no Adobe apps and can't reach the user's PC. Added a kit so the user's
+own Illustrator/Photoshop (Windows 11) can produce true Adobe-native masters.
+### Added
+- `00_Admin/Tooling/LOCAL_SETUP.md` — Windows-first runbook: install Claude Code locally, drive
+  Illustrator via `File ▸ Scripts` (version-proof) or PowerShell COM (`DoJavaScript`), gotchas.
+- `00_Admin/Tooling/illustrator/build_master.jsx` — clean vector → `.ai/.eps/.pdf` + 4× PNG with
+  brand spot colours; **zero-config** (paths auto-resolve from the script location).
+- `00_Admin/Tooling/illustrator/image_trace.jsx` — Illustrator's native Image Trace on a higher-res source.
+- `00_Admin/Tooling/README.md` — "run-the-script vs full-install" comparison + recommendation.
+### Notes
+- For a one-shot export, running the `.jsx` in Illustrator gives the same files as the full local
+  install; the install only adds iterative agent help. Artwork sharpness is still bounded by the
+  source raster — a higher-res logo is the biggest upgrade.
+
+## 2026-06-27 — Session 005d (Geometric master for large-format print)
+A zoom test showed that any trace of the 160px source wobbles at billboard scale (curve and
+polygon alike). So a **geometric, straight-edge master** was built for large-format print.
+### Tooling / method
+- Traced the live logo in **polygon mode** (potrace, `optCurve:false`, high upscale), then
+  **RDP-regularised** every outline so wobbly traced edges collapse to true straight lines
+  (the pen-tool-on-a-template approach). Verified via vector-outline render.
+### Added
+- `08_Exports/Print/MDC_Shield_Master_Print.svg` — full-colour geometric master (straight edges).
+- `08_Exports/Print/MDC_Shield_Mono_Print.svg` — one-colour geometric master.
+- `08_Exports/Print/README.md` — when to use the print masters vs the digital master + honest limits.
+### Decisions
+- DR-017: two master forms — curve (digital) + geometric (print).
+### Notes
+- Both still derive from the 160px live raster; edges are now clean/straight, but the owner's true
+  master vector is still the way to get pixel-exact proportions at the largest scales.
+
+## 2026-06-27 — Session 005c (Outline the wordmark from the real fonts)
+The wordmark was converted from live text to **true vector outlines** of the real typefaces.
+### Tooling
+- Installed `opentype.js`; fetched the actual font files (Anton-Regular.ttf from Google Fonts;
+  Archivo ExtraBold static TTF). Generated glyph outlines for `THE` / `MATCH DAY` (Anton) and
+  `CLUB` (Archivo 800) with manual letter-spacing, positioned to the live lockup.
+### Changed
+- `MDC_Wordmark.svg` — rebuilt as outlined glyph paths (was live text). Verified vs the live box lockup.
+- `MDC_Corporate_Logo.svg` / `08_Exports/Web/MDC_Corporate_Logo_Reverse.svg` — traced shield +
+  outlined wordmark; no font dependency on press; dark and light versions.
+### Added
+- `01_Brand/Typography/Anton-OFL.txt` — Anton licence retained (SIL OFL) alongside Archivo's.
+### Docs
+- Typography + Brand Standards updated: wordmark is now outlined/production-ready.
+
+## 2026-06-27 — Session 005b (Vector-trace the mark from live artwork)
+After realignment, the mark was upgraded from a hand reconstruction to a **vector trace taken
+directly from the live logo** — the local equivalent of Illustrator's Image Trace.
+### Tooling
+- Installed `sharp` + `potrace` (pure-JS). Upscaled the live logo (160×183 → 1500px, lanczos3),
+  split it into ink / bright-green / deep-green channel masks, traced each with potrace, and
+  recoloured to the exact brand hexes. Integer-rounded paths; shared via `<defs>`+`<use>`.
+### Changed
+- `MDC_Shield_Master.svg` / `MDC_Product_Identity.svg` / `MDC_Performance_Mark.svg` (one-colour) /
+  `MDC_Shield_Construction.svg` / `08_Exports/Web/MDC_Shield_Reverse.svg` — rebuilt from the trace.
+- `MDC_Corporate_Logo.svg` — traced shield + wordmark; canvas widened so the lockup never clips.
+- `01_Brand/Usage/*` — clear-space / minimum-size / misuse rebuilt on the traced mark.
+- Captured the true **asymmetric "MD" monogram** and the **two-tone green bevel** (`#8BC63F`/`#6AA62E`).
+### Docs
+- DR-016 updated (mark is traced, not reconstructed); Brand Standards / Colour / Review refreshed.
+### Verified
+- Trace rendered side-by-side against the live logo (near-identical); all SVGs well-formed.
+
+## 2026-06-27 — Session 005 (Realignment to the live brand)
+The live site became reachable; the prior identity was found to be invented and was realigned
+to the real brand (matchdayclub.co.uk) per the owner's direction.
+### Captured
+- Live-brand source: logo raster, product photography, CSS palette, fonts, positioning copy.
+### Changed
+- `MDC_Shield_Master.svg` / `MDC_Product_Identity.svg` — redrawn as the double-keyline shield +
+  hollow "M" monogram + green down-chevron + green accent stroke (reconstruction from live raster).
+- `MDC_Performance_Mark.svg` — repurposed to the one-colour (single-ink) build of the mark.
+- `MDC_Shield_Construction.svg` — construction grid for the new mark.
+- `MDC_Wordmark.svg` / `MDC_Corporate_Logo.svg` — "THE MATCH DAY CLUB" in Anton + Archivo.
+- `08_Exports/Web/*` — reverse (dark-on-light) exports for the new mark + lockup.
+- `MDC_Color_System.md` — dark ground `#0A0B0D` + lime signal `#8BC63F` (real CSS values).
+- `MDC_Typography.md` — Anton (display) + Archivo (body).
+- `Brand_Standards.md` — rewritten to the real position (monthly box for 12–17s).
+- `Brand_Review_LiveSite.md` — completed with observed marks + the prior-vs-live gap.
+- `01_Brand/Usage/*` — clear-space / minimum-size / misuse rebuilt on the new mark.
+### Decisions
+- DR-013 (palette), DR-014 (type: Anton+Archivo), DR-015 (M-monogram mark), DR-016 (name + reconstruction).
+- DR-006 and DR-007 superseded.
+### Archived
+- `99_Archive/MDC_Shield_Master_chevron_v1.svg`, `MDC_Performance_Mark_chevron_v1.svg` (invented marks).
+### QA
+- Mark reconstruction verified side-by-side against the live logo; all SVGs well-formed; diagrams rendered (Chromium).
+### Open
+- Request the owner's master logo vector to replace the reconstruction 1:1 (DR-016).
+
+## 2026-06-27 — Session 004 (Usage rules — clear space, minimum size, misuse)
+### Added
+- `01_Brand/Usage/MDC_Clearspace.svg` — clear-space diagram; keep-out = X on all sides (X = chevron stroke height, 130u).
+- `01_Brand/Usage/MDC_Minimum_Size.svg` — minimum-size diagram; digital 24px / embroidery 25mm floors, shown to relative scale.
+- `01_Brand/Usage/MDC_Misuse.svg` — six prohibited treatments (stretch, rotate, recolour, shadow, outline, low contrast).
+- `01_Brand/Usage/MDC_Usage.md` — consolidated logo usage rules.
+### Changed
+- Brand Standards §3 (clear space + minimum size) and §6 (Misuse) completed and linked to the diagrams.
+### Decisions
+- DR-012 locked: clear-space unit X = chevron stroke height (130u); min-size floors 24px / 25mm.
+### QA
+- All three diagrams rendered (Chromium) and verified against master geometry; well-formed XML; PASS at 9.5.
+- SVG is source of truth (DR-009); render PNGs were QA-only and not committed.
+
+## 2026-06-27 — Session 003 (Live-site brand review — blocked, scaffold staged)
+### Added
+- `01_Brand/Brand_Review_LiveSite.md` — comparison scaffold (house marks vs. live site), with the egress-block evidence and an intake checklist to complete the review.
+### Notes
+- `matchdayclub.co.uk` fetch attempted via WebFetch, curl (browser UA, apex + www), and WebSearch. All denied at the gateway (403 CONNECT) or not indexed. Block re-confirmed against the agent-proxy status endpoint. No live marks could be observed; review left as AWAITING SOURCE rather than fabricated.
 
 ## 2026-06-27 — Session 002 (Typeface lock + outlined wordmark)
 ### Added

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-label="Matchday Club product identity">
+  <title>Matchday Club — Product Identity (shield only)</title>
+  <!-- Product Identity per DR-003: shield only, single colour. -->
+  <g fill="#0E0E0E">
+    <path d="M180 150 L820 150 L820 520 C820 700 700 800 500 880 C300 800 180 700 180 520 Z"/>
+  </g>
+  <path d="M500 350 L700 545 L700 675 L500 480 L300 675 L300 545 Z" fill="#ECE8E1"/>
+</svg>

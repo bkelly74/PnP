@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" role="img" aria-label="Matchday Club shield construction">
+  <title>Matchday Club — Shield Construction Grid</title>
+  <!-- Construction reference. Grid at 100u; centre axis x=500. -->
+  <g stroke="#C9C4BA" stroke-width="1" fill="none">
+    <path d="M0 100 H1000 M0 200 H1000 M0 300 H1000 M0 400 H1000 M0 500 H1000 M0 600 H1000 M0 700 H1000 M0 800 H1000 M0 900 H1000"/>
+    <path d="M100 0 V1000 M200 0 V1000 M300 0 V1000 M400 0 V1000 M500 0 V1000 M600 0 V1000 M700 0 V1000 M800 0 V1000 M900 0 V1000"/>
+  </g>
+  <line x1="500" y1="0" x2="500" y2="1000" stroke="#B23A2E" stroke-width="2" stroke-dasharray="6 6"/>
+  <path d="M180 150 L820 150 L820 520 C820 700 700 800 500 880 C300 800 180 700 180 520 Z"
+        fill="none" stroke="#0E0E0E" stroke-width="3"/>
+  <path d="M500 350 L700 545 L700 675 L500 480 L300 675 L300 545 Z"
+        fill="none" stroke="#0E0E0E" stroke-width="3"/>
+</svg>
